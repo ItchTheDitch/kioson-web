@@ -1,0 +1,123 @@
+.content_1 {
+	color : blue; 
+	white-space: nowrap; 
+	text-align: left; 
+	font-style: normal; 
+	text-decoration: none; 
+	visibility: visible;
+}
+
+.content_2 {
+	white-space: nowrap; 
+	text-align: left; 
+	font-style: normal; 
+	text-decoration: none; 
+	color: rgb(102, 102, 102); 
+	visibility: visible;
+}
+
+.content_3 {
+	white-space: nowrap; 
+	text-align: left; 
+	font-style: normal; 
+	text-decoration: none; 
+	color: rgb(255, 153, 0); 
+	visibility: visible;
+}
+
+.content_4 {
+	white-space: nowrap; 
+	text-align: left; 
+	font-size: 15px; 
+	font-style: normal; 
+	text-decoration: none; 
+	color: rgb(102, 102, 102); 
+	visibility: visible;
+}
+
+.content_5 {
+	white-space: nowrap; 
+	text-align: left; 
+	font-size: 15px; 
+	font-style: normal; 
+	text-decoration: none; 
+	color: rgb(102, 102, 102); 
+	visibility: visible;
+}
+
+.content_6 {
+	background-color: rgb(255, 153, 0); 
+	font-style: normal; text-decoration: none; 
+	color: #ffffff; 
+	width: 250px; 
+	height: 45px; 
+	border-radius: 20px;
+}
+
+.fixed-image {
+	height: 600px;
+	width: 450px;
+}
+
+.center {
+	padding-top: 100px; 
+	padding-left: 75px;
+}
+
+.merge {
+	margin: 0px 50px 0px 50px;
+}
+
+.myBorder {
+
+	border-radius: 10px; 
+	background-color: #ffffff;
+	margin: 5px;
+
+}
+
+.padBorder {
+	padding: 5px;
+}
+
+.paragraf {
+	padding: 5px 0px 5px 20px;
+	color: rgb(102, 102, 102);
+}
+
+.baca {
+	float: right; 
+	padding-right: 40px;
+	color: rgb(255, 153, 0); 
+}
+
+hr {
+	margin: -10px 0px -10px 0px;
+}
+
+.header-artikel {
+	 color: #ffffff;
+	 margin: 0px 0px 20px 10px;
+	 font-family: 'Helvetica Neue'; 
+}
+
+.footer-artikel {
+	float: right;
+	color: #ffffff;
+	margin: 10px 20px 0px 0px;
+	white-space: nowrap;  
+	font-style: normal; 
+	text-decoration: none;  
+	visibility: visible;
+}
+
+.backgrounds {
+	position : absolute;
+	height: 500px;
+	width: 100%;
+	margin: 10px;
+}
+
+.fixContainer {
+	padding: 50px 0px 50px 0px;
+}

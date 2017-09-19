@@ -1,0 +1,22 @@
+#buttonorange{
+    background-color:rgb(255, 153, 0);
+    border-radius:25px;
+    width:250px;
+    color:white;
+}
+
+#img{
+    display: block;
+    margin: auto;
+}
+
+#timkioson{
+    color:blue;
+    font-style:normal;
+}
+
+.bussiness{
+     /* position:absolute;  */
+     margin-top: 45%;
+     background-color:#f3f3f3;
+}

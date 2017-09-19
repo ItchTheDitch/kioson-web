@@ -1,0 +1,50 @@
+.font{
+    color: white;
+    text-align: center;
+
+}
+
+.tengah{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+	border-radius: 30px;
+}
+
+.kanankiri{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.bawah{
+    /* margin-bottom: -10px; */
+}
+
+
+.box{
+    border-radius:20px;
+    border: solid 1px;
+    width:220px;
+    height:50px;
+}
+
+.imgbulat{
+    margin-left:20px;
+    width:50px;
+    height:50px;
+}
+
+.jarak{
+    margin-top:40px;
+}
+
+.jarakheaderatas{
+    margin-top:30px;
+}
+
+.jarakbawah{
+    margin-bottom:40px;
+}
