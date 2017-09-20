@@ -2,3 +2,7 @@
 *{
     font-style: Helvetica;
 }
+
+.container-fluid{
+    padding :0px;
+}
