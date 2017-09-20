@@ -81,6 +81,28 @@ h2{
     margin-top: 10px;
 }
 
+.content_5_2 h2{
+    padding-bottom: 0px;
+    font-size: 1.7em;
+}
+
+.paddingkios{
+    padding: 10%;
+    font-size: 1.5em;
+    color: black;
+    font-weight: 400;
+}
+
+.selengkapnya {
+    padding-top: 3%;
+    padding-right: 3%;
+}
+
+.selengkapnya a:hover{
+    text-decoration: underline;
+    color:#ffffff;
+}
+
 .button {
     background-color: #4CAF50; /* Green */
     border-radius: 20px;
@@ -107,6 +129,7 @@ h2{
 
 .row .content_5_2{
     margin: 10px;
+    margin-top: 5%;
 }
 
 
