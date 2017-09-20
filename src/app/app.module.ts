@@ -38,14 +38,17 @@ Components
   import { InvestorInformationComponent } from './investor/investor-information/investor-information.component';
   import { NewsMediaComponent } from './investor/news-media/news-media.component';
 
+  import { ReportComponent } from './investor/report/report.component';
+  import { ResponsibilitiesComponent } from './investor/responsibilities/responsibilities.component';
+  import { CollaborationComponent } from './investor/collaboration/collaboration.component';
+  import { AboutComponent } from './investor/about/about.component'
+
 /*
 Services
 */
 import { LocationService } from './services/location.service';
-import { ReportComponent } from './investor/report/report.component';
-import { ResponsibilitiesComponent } from './investor/responsibilities/responsibilities.component';
-import { CollaborationComponent } from './investor/collaboration/collaboration.component';
-import { AboutComponent } from './investor/about/about.component'
+import { StockShareComponent } from './investor/stock-share/stock-share.component';
+
 
 @NgModule({
   declarations: [
@@ -81,13 +84,16 @@ import { AboutComponent } from './investor/about/about.component'
     ResponsibilitiesComponent,
     CollaborationComponent,
     AboutComponent,
+    StockShareComponent,
     
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent },
-      { path: 'investor', component: InvestorComponent }
+      { path: 'investor', component: InvestorComponent },
+      { path: 'investor/financial-statement', component: ReportComponent },
+      { path: 'investor/stock-share', component: StockShareComponent },
     ]),
   ],
   providers: [
