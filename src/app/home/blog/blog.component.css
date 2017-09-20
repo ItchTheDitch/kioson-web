@@ -1,7 +1,11 @@
 .content_5{
     background-color:#f3f3f3;
-    padding: 20px;
+    padding: 7.5%;
     color: #ff8000;
+}
+
+.jarakatas{
+    margin-top: 50px;
 }
 
 .content_5 h1{
@@ -29,17 +33,19 @@
 
 .content_5_1{
     background-color:#ffffff;
-    padding: 10px; 
+    padding-top: 0.2%;
+    padding-left: 0.2%;
+    padding-right: 0.2%;
+    padding-bottom: -20%; 
     border: 1px solid #bbbbbb;
     border-radius: 10px;
 }
 
 .content_5_2{
     background-color:#ffffff;
-    padding: 10px;
     border: 1px solid #bbbbbb;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .button {
@@ -67,7 +73,9 @@
 }
 
 .row .content_5_2{
-    margin: 10px;
+    padding-top:5%;
+    margin-top: 3%;
+    margin-left: 2%;
 }
 
 
