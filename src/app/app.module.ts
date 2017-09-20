@@ -41,7 +41,11 @@ Components
 /*
 Services
 */
-import { LocationService } from './services/location.service'
+import { LocationService } from './services/location.service';
+import { ReportComponent } from './investor/report/report.component';
+import { ResponsibilitiesComponent } from './investor/responsibilities/responsibilities.component';
+import { CollaborationComponent } from './investor/collaboration/collaboration.component';
+import { AboutComponent } from './investor/about/about.component'
 
 @NgModule({
   declarations: [
@@ -73,6 +77,10 @@ import { LocationService } from './services/location.service'
     BusinessComponent,
     InvestorInformationComponent,
     NewsMediaComponent,
+    ReportComponent,
+    ResponsibilitiesComponent,
+    CollaborationComponent,
+    AboutComponent,
     
   ],
   imports: [
