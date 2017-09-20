@@ -106,6 +106,12 @@ body
     width: 180px;
 }
 
+.navbar{
+    padding: 0px;
+}
+
+
+
 /* @media (min-width:1200px)
 {
     .form-melayang{
