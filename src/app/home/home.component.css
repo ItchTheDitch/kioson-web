@@ -1,9 +1,3 @@
-
-
-body
-{
-}
-
 .waris
 {
     padding-top: 4%;
@@ -81,13 +75,26 @@ body
 .form-melayang
 {
     position: absolute;
-    left: 52%;
-    margin-top: -400px;
+    left: 51%;
+    margin-top: -33%;
+    width: 36%;
+
 }
 
 .form-melayang .text-putih
 {
     color: white;
+    margin-left: 6.2%;
+    margin-bottom: 5%;
+    font-family: "Times New Roman";
+}
+.form-melayang .bold
+{
+    font-weight: bold;
+}
+.form-melayang .kartu-text
+{
+    color: #666666;
 }
 
 .tersedia-di
@@ -106,19 +113,4 @@ body
     width: 180px;
 }
 
-/* @media (min-width:1200px)
-{
-    .form-melayang{
-        z-index:1;
 
-    }
-}
-@media (min-width:320px)
-{
-    .form-melayang{
-        z-index:0;
-        position:fixed;
-        left: 0;
-        top: 0;
-    }
-} */

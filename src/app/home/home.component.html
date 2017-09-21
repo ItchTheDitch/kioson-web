@@ -1,13 +1,21 @@
 
         <img class="col-12" src="../../assets/img/big.png">
         <div class="form-melayang">
-            <h1 class="text-putih">Dagang apapun ada disini.</h1>
-            <p class="text-putih">Aplikasi jualan, transfer uang dan Pinjaman</p>
+            <h3 class="text-putih bold">Dagang apapun, ada disini.</h3>
+            <h5 class="text-putih">Aplikasi jualan, transfer uang dan Pinjaman</h5>
             <div class="kartu">
-                <p class="card-text">Bergabung dengan +30.000 Mitra di 348 Kota</p>
-                <p class="card-text">Kirim link download melalui SMS</p>
-                <input type="text" class="form-control" id="nomor-sms" placeholder="Masukan Nomor Ponsel disini">
-                <button type="submit" class="btn btn-warning" style="color: white; width:100%; margin-top:10px">Submit</button>
+                <p class="kartu-text">Bergabung dengan +30.000 Mitra di 348 Kota</p>
+                <p class="kartu-text">Kirim link download melalui SMS</p>
+                <input type="text" [(ngModel)]="validatorservice.noPonsel" class="form-control" id="nomor-sms" placeholder="Masukan Nomor Ponsel disini" required>
+                <div class="alert alert-warning"  *ngIf="validatorservice.isInvalid">
+                    Nomor yang Anda Masukan Salah !
+                </div>
+                <div class="alert alert-success" *ngIf="validatorservice.telahDikirim">
+                    Link Telah Kami Kirimkan
+                </div>
+                
+                <button type="submit" (click)="validate()" class="btn btn-warning" style="color: white; width:100%; margin-top:10px">Submit</button>
+                
             </div>
         </div>
         <!-- waris -->
@@ -147,7 +155,8 @@
                 <!-- end waris -->
             </div>
         </div>
-  
+        <div id="blank" class="col-12" style="height:200">
+</div>
         <div class="divider-berwarna container-fluid">
             <!-- <img style="width:100%; position: absolute;  z-index: -1; padding-right: 30px;" src="orange.png"> -->
             <div class="row">

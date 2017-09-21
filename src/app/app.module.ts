@@ -1,4 +1,4 @@
-
+import { FormsModule } from '@angular/forms';
 
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -42,7 +42,7 @@ Components
 Services
 */
 import { LocationService } from './services/location.service'
-
+import { ValidatorService } from './services/validator.service';
 @NgModule({
   declarations: [
     /*
@@ -77,13 +77,14 @@ import { LocationService } from './services/location.service'
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent },
       { path: 'investor', component: InvestorComponent }
     ]),
   ],
   providers: [
-    LocationService,
+    LocationService,ValidatorService
   ],
   bootstrap: [AppComponent]
 })
