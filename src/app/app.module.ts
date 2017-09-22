@@ -1,8 +1,10 @@
+import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
 
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+
 
 
 
@@ -92,6 +94,7 @@ import { ValidatorService } from './services/validator.service';
   imports: [
     BrowserModule,
     FormsModule,
+    HttpModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent },
       { path: 'investor', component: InvestorComponent },
