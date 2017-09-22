@@ -111,9 +111,6 @@ import { Report2017Component } from './investor/report2017/report2017.component'
     RouterModule.forRoot([
       { path: '', component: HomeComponent },
       { path: 'investor', component: InvestorComponent },
-      { path: 'financial2015', component: Report2015Component },
-      { path: 'financial2016', component: Report2016Component },
-      { path: 'financial2017', component: Report2017Component },
       { path: 'investor/financial-statement', component: ReportComponent },
       { path: 'investor/stock-share', component: StockShareComponent }
     ]),
