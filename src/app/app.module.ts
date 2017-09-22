@@ -1,3 +1,4 @@
+import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
 
 import { BrowserModule } from '@angular/platform-browser';
@@ -5,6 +6,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { HttpModule } from '@angular/http';
+
 
 
 
@@ -98,6 +100,7 @@ import { InvestorPageComponent } from './investor/investor-page/investor-page.co
   imports: [
     BrowserModule,
     FormsModule,
+    HttpModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent },
       { path: 'investor', component: InvestorPageComponent },
