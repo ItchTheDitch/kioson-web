@@ -8,7 +8,6 @@ import { RouterModule, Routes } from '@angular/router';
 
 
 
-
 /*
 Components
 */
@@ -51,26 +50,11 @@ Components
 /*
 Services
 */
-<<<<<<< HEAD
-  import { LocationService } from './services/location.service'
-  import { ValidatorService } from './services/validator.service';
-import { InvestorPageComponent } from './investor/investor-page/investor-page.component';
-
-  
-
-// import { Report2015Component } from './investor/report2015/report2015.component';
-// import { Report2016Component } from './investor/report2016/report2016.component';
-// import { Report2017Component } from './investor/report2017/report2017.component';
-=======
 import { LocationService } from './services/location.service'
 import { ValidatorService } from './services/validator.service';
-<<<<<<< HEAD
 import { Report2015Component } from './investor/report2015/report2015.component';
 import { Report2016Component } from './investor/report2016/report2016.component';
 import { Report2017Component } from './investor/report2017/report2017.component';
->>>>>>> c3b8be3300d8e103e0fbb1a9a805218ac24b5fcf
-=======
->>>>>>> aa034b68ad4db76fe763df3bbac6e5d3ad08c116
 @NgModule({
   declarations: [
     /*
@@ -107,34 +91,20 @@ import { Report2017Component } from './investor/report2017/report2017.component'
     AboutComponent,
     StockShareComponent,
     NavbarInvestorComponent,
-<<<<<<< HEAD
-<<<<<<< HEAD
-    InvestorPageComponent,
-    // Report2015Component,
-    // Report2016Component,
-    // Report2017Component,
-=======
     Report2015Component,
     Report2016Component,
     Report2017Component,
->>>>>>> c3b8be3300d8e103e0fbb1a9a805218ac24b5fcf
-=======
->>>>>>> aa034b68ad4db76fe763df3bbac6e5d3ad08c116
     
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent },
       { path: 'investor', component: InvestorComponent },
-<<<<<<< HEAD
-      // { path: 'financial2015', component: Report2015Component },
-      // { path: 'financial2016', component: Report2016Component },
-      // { path: 'financial2017', component: Report2017Component },
-=======
->>>>>>> c3b8be3300d8e103e0fbb1a9a805218ac24b5fcf
+      { path: 'financial2015', component: Report2015Component },
+      { path: 'financial2016', component: Report2016Component },
+      { path: 'financial2017', component: Report2017Component },
       { path: 'investor/financial-statement', component: ReportComponent },
       { path: 'investor/stock-share', component: StockShareComponent },
     ]),
