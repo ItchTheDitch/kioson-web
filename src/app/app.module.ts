@@ -48,6 +48,7 @@ Services
 */
 import { LocationService } from './services/location.service';
 import { StockShareComponent } from './investor/stock-share/stock-share.component';
+import { NavbarInvestorComponent } from './investor/navbar-investor/navbar-investor.component';
 
 
 @NgModule({
@@ -85,6 +86,7 @@ import { StockShareComponent } from './investor/stock-share/stock-share.componen
     CollaborationComponent,
     AboutComponent,
     StockShareComponent,
+    NavbarInvestorComponent,
     
   ],
   imports: [
