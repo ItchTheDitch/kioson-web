@@ -51,8 +51,11 @@ Components
 /*
 Services
 */
-import { LocationService } from './services/location.service'
-import { ValidatorService } from './services/validator.service';
+  import { LocationService } from './services/location.service'
+  import { ValidatorService } from './services/validator.service';
+import { InvestorPageComponent } from './investor/investor-page/investor-page.component';
+
+  
 @NgModule({
   declarations: [
     /*
@@ -89,6 +92,7 @@ import { ValidatorService } from './services/validator.service';
     AboutComponent,
     StockShareComponent,
     NavbarInvestorComponent,
+    InvestorPageComponent,
     
   ],
   imports: [
@@ -97,7 +101,7 @@ import { ValidatorService } from './services/validator.service';
     HttpModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent },
-      { path: 'investor', component: InvestorComponent },
+      { path: 'investor', component: InvestorPageComponent },
       { path: 'investor/financial-statement', component: ReportComponent },
       { path: 'investor/stock-share', component: StockShareComponent },
     ]),

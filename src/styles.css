@@ -1,7 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 *{
     font-style: Helvetica;
+<<<<<<< HEAD
     /* outline: 1px solid red; */
+=======
+   
+>>>>>>> 06b78422d5f65c7a07506796f5e70decdb5b594c
 }
 
 html, body {
