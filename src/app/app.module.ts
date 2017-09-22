@@ -1,8 +1,12 @@
+import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
 
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+
+
+
 
 
 
@@ -49,8 +53,12 @@ Components
 /*
 Services
 */
-import { LocationService } from './services/location.service'
-import { ValidatorService } from './services/validator.service';
+  import { LocationService } from './services/location.service'
+  import { ValidatorService } from './services/validator.service';
+import { InvestorPageComponent } from './investor/investor-page/investor-page.component';
+
+  
+
 import { Report2015Component } from './investor/report2015/report2015.component';
 import { Report2016Component } from './investor/report2016/report2016.component';
 import { Report2017Component } from './investor/report2017/report2017.component';
@@ -90,6 +98,7 @@ import { Report2017Component } from './investor/report2017/report2017.component'
     AboutComponent,
     StockShareComponent,
     NavbarInvestorComponent,
+    InvestorPageComponent,
     Report2015Component,
     Report2016Component,
     Report2017Component,
@@ -98,6 +107,7 @@ import { Report2017Component } from './investor/report2017/report2017.component'
   imports: [
     BrowserModule,
     FormsModule,
+    HttpModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent },
       { path: 'investor', component: InvestorComponent },
@@ -105,8 +115,9 @@ import { Report2017Component } from './investor/report2017/report2017.component'
       { path: 'financial2016', component: Report2016Component },
       { path: 'financial2017', component: Report2017Component },
       { path: 'investor/financial-statement', component: ReportComponent },
-      { path: 'investor/stock-share', component: StockShareComponent },
+      { path: 'investor/stock-share', component: StockShareComponent }
     ]),
+    HttpModule,
   ],
   providers: [
     LocationService,ValidatorService
