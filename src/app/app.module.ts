@@ -38,6 +38,14 @@ Components
   import { InvestorInformationComponent } from './investor/investor-information/investor-information.component';
   import { NewsMediaComponent } from './investor/news-media/news-media.component';
 
+  import { ReportComponent } from './investor/report/report.component';
+  import { ResponsibilitiesComponent } from './investor/responsibilities/responsibilities.component';
+  import { CollaborationComponent } from './investor/collaboration/collaboration.component';
+  import { AboutComponent } from './investor/about/about.component';
+
+  import { StockShareComponent } from './investor/stock-share/stock-share.component';
+  import { NavbarInvestorComponent } from './investor/navbar-investor/navbar-investor.component';
+
 /*
 Services
 */
@@ -73,6 +81,12 @@ import { ValidatorService } from './services/validator.service';
     BusinessComponent,
     InvestorInformationComponent,
     NewsMediaComponent,
+    ReportComponent,
+    ResponsibilitiesComponent,
+    CollaborationComponent,
+    AboutComponent,
+    StockShareComponent,
+    NavbarInvestorComponent,
     
   ],
   imports: [
@@ -80,7 +94,9 @@ import { ValidatorService } from './services/validator.service';
     FormsModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent },
-      { path: 'investor', component: InvestorComponent }
+      { path: 'investor', component: InvestorComponent },
+      { path: 'investor/financial-statement', component: ReportComponent },
+      { path: 'investor/stock-share', component: StockShareComponent },
     ]),
   ],
   providers: [
