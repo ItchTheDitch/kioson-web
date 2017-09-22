@@ -98,13 +98,10 @@ import { Report2017Component } from './investor/report2017/report2017.component'
     AboutComponent,
     StockShareComponent,
     NavbarInvestorComponent,
-<<<<<<< HEAD
     InvestorPageComponent,
-=======
     Report2015Component,
     Report2016Component,
     Report2017Component,
->>>>>>> master
     
   ],
   imports: [
