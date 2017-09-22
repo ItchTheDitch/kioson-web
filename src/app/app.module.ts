@@ -51,6 +51,9 @@ Services
 */
 import { LocationService } from './services/location.service'
 import { ValidatorService } from './services/validator.service';
+import { Report2015Component } from './investor/report2015/report2015.component';
+import { Report2016Component } from './investor/report2016/report2016.component';
+import { Report2017Component } from './investor/report2017/report2017.component';
 @NgModule({
   declarations: [
     /*
@@ -87,6 +90,9 @@ import { ValidatorService } from './services/validator.service';
     AboutComponent,
     StockShareComponent,
     NavbarInvestorComponent,
+    Report2015Component,
+    Report2016Component,
+    Report2017Component,
     
   ],
   imports: [
