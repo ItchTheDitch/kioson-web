@@ -1,8 +1,10 @@
+import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
 
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+
 
 
 
@@ -62,10 +64,13 @@ import { InvestorPageComponent } from './investor/investor-page/investor-page.co
 =======
 import { LocationService } from './services/location.service'
 import { ValidatorService } from './services/validator.service';
+<<<<<<< HEAD
 import { Report2015Component } from './investor/report2015/report2015.component';
 import { Report2016Component } from './investor/report2016/report2016.component';
 import { Report2017Component } from './investor/report2017/report2017.component';
 >>>>>>> c3b8be3300d8e103e0fbb1a9a805218ac24b5fcf
+=======
+>>>>>>> aa034b68ad4db76fe763df3bbac6e5d3ad08c116
 @NgModule({
   declarations: [
     /*
@@ -103,6 +108,7 @@ import { Report2017Component } from './investor/report2017/report2017.component'
     StockShareComponent,
     NavbarInvestorComponent,
 <<<<<<< HEAD
+<<<<<<< HEAD
     InvestorPageComponent,
     // Report2015Component,
     // Report2016Component,
@@ -112,11 +118,14 @@ import { Report2017Component } from './investor/report2017/report2017.component'
     Report2016Component,
     Report2017Component,
 >>>>>>> c3b8be3300d8e103e0fbb1a9a805218ac24b5fcf
+=======
+>>>>>>> aa034b68ad4db76fe763df3bbac6e5d3ad08c116
     
   ],
   imports: [
     BrowserModule,
     FormsModule,
+    HttpModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent },
       { path: 'investor', component: InvestorComponent },
