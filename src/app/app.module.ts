@@ -49,8 +49,8 @@ Components
 /*
 Services
 */
-import { LocationService } from './services/location.service'
-import { ValidatorService } from './services/validator.service';
+  import { LocationService } from './services/location.service'
+  import { ValidatorService } from './services/validator.service';
 @NgModule({
   declarations: [
     /*
