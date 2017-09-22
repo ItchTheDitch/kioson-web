@@ -4,6 +4,11 @@
     /* outline: 1px solid red; */
 }
 
+html, body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
 /* @media (min-width: 576px) {
     .container {
       max-width: 720px !important;
