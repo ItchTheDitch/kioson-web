@@ -4,6 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
+import { HttpModule } from '@angular/http';
+
 
 
 
@@ -102,6 +104,7 @@ import { InvestorPageComponent } from './investor/investor-page/investor-page.co
       { path: 'investor/financial-statement', component: ReportComponent },
       { path: 'investor/stock-share', component: StockShareComponent },
     ]),
+    HttpModule,
   ],
   providers: [
     LocationService,ValidatorService
