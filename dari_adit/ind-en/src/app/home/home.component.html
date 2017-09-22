@@ -1,0 +1,176 @@
+
+        <img class="col-12" src="../../assets/img/big.png">
+        <div class="form-melayang">
+            <h3 class="text-putih bold">Dagang apapun, ada disini.</h3>
+            <h5 class="text-putih">Aplikasi jualan, transfer uang dan Pinjaman</h5>
+            <div class="kartu">
+                <p class="kartu-text">Bergabung dengan +30.000 Mitra di 348 Kota</p>
+                <p class="kartu-text">Kirim link download melalui SMS</p>
+                <input type="text" [(ngModel)]="validatorservice.noPonsel" class="form-control" id="nomor-sms" placeholder="Masukan Nomor Ponsel disini" >
+                <div class="alert alert-warning"  *ngIf="validatorservice.isInvalid">
+                    Nomor yang Anda Masukan Salah !
+                </div>
+                <div class="alert alert-success" *ngIf="validatorservice.telahDikirim">
+                    Link Telah Kami Kirimkan
+                </div>
+                
+                <button type="submit" (click)="validate()" class="btn btn-warning" style="color: white; width:100%; margin-top:10px">Submit</button>
+                
+            </div>
+        </div>
+        <!-- waris -->
+        <div id="cluster-fitur">
+            <div class="waris">
+                <div class="col-12">
+                    <div class="row">
+                        <!-- row1 -->
+                        <div class="col icon-fitur">
+                            <img src="../../assets/img//kios-online.png" alt="">
+                        </div>
+                        <div class="col tulisan-fitur">
+                            <p class="fitur-hitam">Kios Online</p>
+                            <p class="fitur-abu">E-Commerce</p>
+                        </div>
+                        <div class="col icon-fitur">
+                            <img src="../../assets/img//pulsa.png" alt="">
+                        </div>
+                        <div class="col tulisan-fitur">
+                            <p class="fitur-hitam">Pulsa</p>
+                            <p class="fitur-abu">Pulsa & Data</p>
+                        </div>
+                        <div class="col icon-fitur">
+                            <img src="../../assets/img//listrik.png" alt="">
+                        </div>
+                        <div class="col tulisan-fitur">
+                            <p class="fitur-hitam">Listrik</p>
+                            <p class="fitur-abu">Bayar Tagihan</p>
+                        </div>
+                        <div class="col icon-fitur">
+                            <img src="../../assets/img//PDAM.png" alt="">
+                        </div>
+                        <div class="col tulisan-fitur">
+                            <p class="fitur-hitam">PDAM</p>
+                            <p class="fitur-abu">Bayar Tagihan</p>
+                        </div>
+                        <!-- end of row1 -->
+                    </div>
+                    <div class="row">
+                        <!-- row2 -->
+                        <div class="col icon-fitur">
+                            <img src="../../assets/img//kirim-uang.png" alt="">
+                        </div>
+                        <div class="col tulisan-fitur">
+                            <p class="fitur-hitam">Kirim Uang</p>
+                            <p class="fitur-abu">Perbankan</p>
+                        </div>
+                        <div class="col icon-fitur">
+                            <img src="../../assets/img//pasca-bayar.png" alt="">
+                        </div>
+                        <div class="col tulisan-fitur">
+                            <p class="fitur-hitam">Pascar Bayar</p>
+                            <p class="fitur-abu">Bayar Tagihan</p>
+                        </div>
+                        <div class="col icon-fitur">
+                            <img src="../../assets/img//asuransi.png" alt="">
+                        </div>
+                        <div class="col tulisan-fitur">
+                            <p class="fitur-hitam">Asuransi</p>
+                            <p class="fitur-abu">Proteksi</p>
+                        </div>
+                        <div class="col icon-fitur">
+                            <img src="../../assets/img//kioson-pay.png" alt="">
+                        </div>
+                        <div class="col tulisan-fitur">
+                            <p class="fitur-hitam">Kioson Pay</p>
+                            <p class="fitur-abu">Pembayaran</p>
+                        </div>
+                        <!-- end of row2 -->
+                    </div>
+                    <div class="row">
+                        <!-- row3 -->
+                        <div class="col icon-fitur">
+                            <img src="../../assets/img//multi-finance.png" alt="">
+                        </div>
+                        <div class="col tulisan-fitur">
+                            <p class="fitur-hitam">Multi Finance</p>
+                            <p class="fitur-abu">Keuangan</p>
+                        </div>
+                        <div class="col icon-fitur">
+                            <img src="../../assets/img//perbankan.png" alt="">
+                        </div>
+                        <div class="col tulisan-fitur">
+                            <p class="fitur-hitam">Perbankan</p>
+                            <p class="fitur-abu">Buka Rekening</p>
+                        </div>
+                        <div class="col icon-fitur">
+                            <img src="../../assets/img//kupongame.png" alt="" class="">
+                        </div>
+                        <div class="col tulisan-fitur">
+                            <p class="fitur-hitam">Kupon Game</p>
+                            <p class="fitur-abu">E-VocerGame</p>
+                        </div>
+                        <div class="col icon-fitur">
+                            <img src="../../assets/img//bayar-tv.png" alt="">
+                        </div>
+                        <div class="col tulisan-fitur">
+                            <p class="fitur-hitam">Bayar Tv</p>
+                            <p class="fitur-abu">Bayar Taghihan</p>
+                        </div>
+                        <!-- end row3 -->
+                    </div>
+                    <div class="row">
+                        <!-- row4 -->
+                        <div class="col icon-fitur">
+                            <img src="../../assets/img//isi-operator.png" alt="">
+                        </div>
+                        <div class="col tulisan-fitur">
+                            <p class="fitur-hitam">Isi Operator</p>
+                            <p class="fitur-abu">Dompul</p>
+                        </div>
+                        <div class="col icon-fitur">
+                            <img src="../../assets/img//Pinjaman.png" alt="">
+                        </div>
+                        <div class="col tulisan-fitur">
+                            <p class="fitur-hitam">Pinjaman</p>
+                            <p class="fitur-abu">Danamas</p>
+                        </div>
+                        <div class="col icon-fitur">
+                            <img src="../../assets/img//kereta-api.png" alt="">
+                        </div>
+                        <div class="col tulisan-fitur">
+                            <p class="fitur-hitam">Kereta Api</p>
+                            <p class="fitur-abu">Pembayaran</p>
+                        </div>
+                        <div class="col icon-fitur">
+                            <img src="../../assets/img//keagenan.png" alt="">
+                        </div>
+                        <div class="col tulisan-fitur">
+                            <p class="fitur-hitam">Keagenan</p>
+                            <p class="fitur-abu">Mitra</p>
+                        </div>
+                        <!-- end of row4 -->
+                    </div>
+                </div>
+                <h6 class="16fitur">16 Fitur Layanan Usaha Terbaik Dalam Satu Genggaman</h6>
+                <!-- end waris -->
+            </div>
+        </div>
+        <div id="blank" class="col-12" style="height:200">
+</div>
+        <div class="divider-berwarna container-fluid">
+            <!-- <img style="width:100%; position: absolute;  z-index: -1; padding-right: 30px;" src="orange.png"> -->
+            <div class="row">
+                <div class="col align-self-start"></div>
+                <div class="gabunganlogo col align-self-center">
+                    <span class="tersedia-di">Tersedia di:</span>
+                    <a href="">
+                        <img class="logo-getit" src="../../assets/img/GetItOnGP.png">
+                    </a>
+                </div>
+                <div class="col align-self-end"></div>
+            </div>
+        </div>
+<app-guide-help></app-guide-help>
+<app-testimony></app-testimony>
+<app-location></app-location>
+<app-blog></app-blog>

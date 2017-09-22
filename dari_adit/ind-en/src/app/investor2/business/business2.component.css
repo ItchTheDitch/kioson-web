@@ -1,0 +1,136 @@
+#buttonorange{
+    background-color:rgb(255, 153, 0);
+    border-radius:25px;
+    width:250px;
+    color:white;
+}
+
+h2{
+    padding-bottom: 2em;
+}
+
+.bs-padding{
+    margin-left: 5%;
+    padding-top: 30%;
+}
+.content-padding{
+    
+}
+
+#img{
+    display: block;
+    margin: auto;
+}
+
+#timkioson{
+    color:blue;
+    font-style:normal;
+}
+
+.bussiness{
+     /* position:absolute;  */
+     margin-top: 30%;
+     background-color:#f3f3f3;
+     padding-right: 15px;
+}
+
+
+.content_5{
+    background-color:#f3f3f3;
+    color: #ff8000;
+    margin-top: 5%;
+    
+}
+
+.content_5 h1{
+    color: #808080;
+    font-size: 1.8em;
+    padding-left: .5em;
+}
+
+.content_5 h2{
+    color: #808080;
+    font-size: 20px;
+}
+
+.content_5 h3{
+    color: #ff8000;
+    font-size: 16px;
+}
+
+.content_5 a{
+    color: #ff8000;
+    font-size: 12px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.content_5_1{
+    background-color:#ffffff;
+    padding: 10px;
+    border: 1px solid #bbbbbb;
+    border-radius: 10px;
+}
+
+.content_5_2{
+    background-color:#ffffff;
+    padding: 10px;
+    border: 1px solid #bbbbbb;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.content_5_2 h2{
+    padding-bottom: 0px;
+    font-size: 1.7em;
+}
+
+.paddingkios{
+    padding: 10%;
+    font-size: 1.5em;
+    color: black;
+    font-weight: 400;
+}
+
+.selengkapnya {
+    padding-top: 3%;
+    padding-right: 3%;
+}
+
+.selengkapnya a:hover{
+    text-decoration: underline;
+    color:#ffffff;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border-radius: 20px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn-orange{
+    border: 1px solid orange;
+    color: orange;
+    background-color: white;
+}
+
+.button-lg{
+    margin-top : 20px;
+    font-size: 16px;
+}
+
+.row .content_5_2{
+    margin: 10px;
+    margin-top: 5%;
+}
+
+
+

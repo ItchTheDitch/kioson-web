@@ -8,6 +8,9 @@ import { RouterModule, Routes } from '@angular/router';
 
 
 
+
+
+
 /*
 Components
 */
@@ -50,11 +53,18 @@ Components
 /*
 Services
 */
-import { LocationService } from './services/location.service'
-import { ValidatorService } from './services/validator.service';
+  import { LocationService } from './services/location.service'
+  import { ValidatorService } from './services/validator.service';
+import { InvestorPageComponent } from './investor/investor-page/investor-page.component';
+
+  
+
 import { Report2015Component } from './investor/report2015/report2015.component';
 import { Report2016Component } from './investor/report2016/report2016.component';
 import { Report2017Component } from './investor/report2017/report2017.component';
+import { SahamComponent } from './investor/saham/saham.component';
+import { MediaComponent } from './media/media.component';
+import { PemegangSahamComponent } from './investor/pemegang-saham/pemegang-saham.component';
 @NgModule({
   declarations: [
     /*
@@ -91,9 +101,14 @@ import { Report2017Component } from './investor/report2017/report2017.component'
     AboutComponent,
     StockShareComponent,
     NavbarInvestorComponent,
+    InvestorPageComponent,
     Report2015Component,
     Report2016Component,
     Report2017Component,
+    SahamComponent,
+    MediaComponent,
+    PemegangSahamComponent,
+    
     
   ],
   imports: [
@@ -103,12 +118,15 @@ import { Report2017Component } from './investor/report2017/report2017.component'
     RouterModule.forRoot([
       { path: '', component: HomeComponent },
       { path: 'investor', component: InvestorComponent },
-      { path: 'investor/financial2015', component: Report2015Component },
-      { path: 'investor/financial2016', component: Report2016Component },
-      { path: 'investor/financial2017', component: Report2017Component },
+      { path: 'financial2015', component: Report2015Component },
+      { path: 'financial2016', component: Report2016Component },
+      { path: 'financial2017', component: Report2017Component },
+      { path: 'saham', component: SahamComponent },
+      { path: 'pemegangsaham', component: PemegangSahamComponent },
       { path: 'investor/financial-statement', component: ReportComponent },
-      { path: 'investor/stock-share', component: StockShareComponent },
+      { path: 'investor/stock-share', component: StockShareComponent }
     ]),
+    HttpModule,
   ],
   providers: [
     LocationService,ValidatorService
