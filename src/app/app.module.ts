@@ -59,9 +59,9 @@ import { InvestorPageComponent } from './investor/investor-page/investor-page.co
 
   
 
-import { Report2015Component } from './investor/report2015/report2015.component';
-import { Report2016Component } from './investor/report2016/report2016.component';
-import { Report2017Component } from './investor/report2017/report2017.component';
+// import { Report2015Component } from './investor/report2015/report2015.component';
+// import { Report2016Component } from './investor/report2016/report2016.component';
+// import { Report2017Component } from './investor/report2017/report2017.component';
 @NgModule({
   declarations: [
     /*
@@ -99,9 +99,9 @@ import { Report2017Component } from './investor/report2017/report2017.component'
     StockShareComponent,
     NavbarInvestorComponent,
     InvestorPageComponent,
-    Report2015Component,
-    Report2016Component,
-    Report2017Component,
+    // Report2015Component,
+    // Report2016Component,
+    // Report2017Component,
     
   ],
   imports: [
@@ -111,9 +111,9 @@ import { Report2017Component } from './investor/report2017/report2017.component'
     RouterModule.forRoot([
       { path: '', component: HomeComponent },
       { path: 'investor', component: InvestorComponent },
-      { path: 'financial2015', component: Report2015Component },
-      { path: 'financial2016', component: Report2016Component },
-      { path: 'financial2017', component: Report2017Component },
+      // { path: 'financial2015', component: Report2015Component },
+      // { path: 'financial2016', component: Report2016Component },
+      // { path: 'financial2017', component: Report2017Component },
       { path: 'investor/financial-statement', component: ReportComponent },
       { path: 'investor/stock-share', component: StockShareComponent }
     ]),
