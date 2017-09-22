@@ -5,7 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { HttpModule } from '@angular/http';
+
 
 
 
@@ -58,6 +58,10 @@ Services
 import { InvestorPageComponent } from './investor/investor-page/investor-page.component';
 
   
+
+import { Report2015Component } from './investor/report2015/report2015.component';
+import { Report2016Component } from './investor/report2016/report2016.component';
+import { Report2017Component } from './investor/report2017/report2017.component';
 @NgModule({
   declarations: [
     /*
@@ -94,7 +98,13 @@ import { InvestorPageComponent } from './investor/investor-page/investor-page.co
     AboutComponent,
     StockShareComponent,
     NavbarInvestorComponent,
+<<<<<<< HEAD
     InvestorPageComponent,
+=======
+    Report2015Component,
+    Report2016Component,
+    Report2017Component,
+>>>>>>> master
     
   ],
   imports: [
