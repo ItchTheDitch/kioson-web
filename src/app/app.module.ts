@@ -99,6 +99,7 @@ import { Report2017Component } from './investor/report2017/report2017.component'
   imports: [
     BrowserModule,
     FormsModule,
+    HttpModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent },
       { path: 'investor', component: InvestorComponent },
