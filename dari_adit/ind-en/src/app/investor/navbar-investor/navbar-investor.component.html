@@ -6,7 +6,7 @@
         <div class="" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item dropdown">
-                    <a class="nav-link " href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link  padding-nav" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Tentang Kioson</a>
                     <div class="row marginrow">
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -15,10 +15,10 @@
                                 <div class="col-sm ">
                                     <h4 class="dropdown-item">Kioson</h4>
                                     <div class="dropdown-item whiteline col-sm-1"></div>
-                                    <a class="dropdown-item" href="#">>Apa itu Kioson?</a>
-                                    <a class="dropdown-item" href="#">>Visi Misi Kioson</a>
-                                    <a class="dropdown-item" href="#">>Sejarah dan Rekam Jejak Kioson</a>
-                                    <a class="dropdown-item" href="#">>Kegiatan Usaha</a>
+                                    <a class="dropdown-item" routerLink="/about">>Apa itu Kioson?</a>
+                                    <a class="dropdown-item" routerLink="/about">>Visi Misi Kioson</a>
+                                    <a class="dropdown-item" routerLink="/about">>Sejarah dan Rekam Jejak Kioson</a>
+                                    <a class="dropdown-item" routerLink="/about">>Kegiatan Usaha</a>
                                 </div>
                                 <div class="col-sm">
                                     <h4 class="dropdown-item">Layanan Fitur Aplikasi</h4>
@@ -41,8 +41,8 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Program Tanggung Jawab</a>
+                    <a class="nav-link padding-nav" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Program Tanggung Jawab</a>
                     <div class="row">
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <div class="row">
@@ -82,15 +82,15 @@
                                 <div class="col-sm ">
                                     <h4 class="dropdown-item">Laporan Keuangan Umum</h4>
                                     <div class="dropdown-item whiteline col-sm-1"></div>
-                                    <a class="dropdown-item" href="#">>Laporan Keuangan Menyeluruh 2015</a>
-                                    <a class="dropdown-item" href="#">>Laporan Keuangan Menyeluruh 2016</a>
-                                    <a class="dropdown-item" href="#">>Laporan Keuangan Menyeluruh 2017</a>
+                                    <a class="dropdown-item" routerLink="/financial2015">>Laporan Keuangan Menyeluruh 2015</a>
+                                    <a class="dropdown-item" routerLink="/financial2016">>Laporan Keuangan Menyeluruh 2016</a>
+                                    <a class="dropdown-item" routerLink="/financial2017">>Laporan Keuangan Menyeluruh 2017</a>
                                 </div>
                                 <div class="col-sm">
                                     <h4 class="dropdown-item">Laporan Kuangan Pemegang Saham</h4>
                                     <div class="dropdown-item whiteline col-sm-1"></div>
-                                    <a class="dropdown-item" href="#">>Laporan Keuangan Pembagian Saham I</a>
-                                    <a class="dropdown-item" href="#">>Laporan Keuangan Pembagian Saham II</a>
+                                    <a class="dropdown-item" routerLink="/saham">>Laporan Keuangan Pembagian Saham I</a>
+                                    <a class="dropdown-item" routerLink="/saham">>Laporan Keuangan Pembagian Saham II</a>
                                 </div>
                                 <div class="col-sm"></div>
                             </div>
@@ -133,28 +133,19 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <div class="row">
                                 <div class="col-sm"></div>
-                                <div class="col-sm ">
-                                    <h4 class="dropdown-item">Ikhtisar Keuangan</h4>
-                                    <div class="dropdown-item whiteline col-sm-1"></div>
-                                    <a class="dropdown-item" href="#">>Ikhtisar Saham</a>
-                                    <a class="dropdown-item" href="#">>Ikhtisar Keuangan</a>
-                                    <a class="dropdown-item" href="#">>Ikhtisar Obligasi</a>
-                                </div>
-                                <div class="col-sm">
-                                    <h4 class="dropdown-item">Laporan</h4>
-                                    <div class="dropdown-item whiteline col-sm-1"></div>
-                                    <a class="dropdown-item" href="#">>Laporan Tabungan</a>
-                                    <a class="dropdown-item" href="#">>Laporan Keuangan</a>
-                                    <a class="dropdown-item" href="#">>Presentasi</a>
-                                    <a class="dropdown-item" href="#">>RUPS</a>
-                                </div>
                                 <div class="col-sm">
                                     <h4 class="dropdown-item">Informasi Umum</h4>
                                     <div class="dropdown-item whiteline col-sm-1"></div>
-                                    <a class="dropdown-item" href="#">>Keterbukaan Informasi</a>
-                                    <a class="dropdown-item" href="#">>Deviden</a>
-                                    <a class="dropdown-item" href="#">>Pemegang Saham</a>
-                                    <a class="dropdown-item" href="#">>Lembaga Penunjang</a>
+                                    <a class="dropdown-item" routerLink="/pemegangsaham">>Pemegang Saham</a>
+                                    <a class="dropdown-item" routerLink="/lembagapenunjang">>Lembaga Penunjang</a>
+                                </div>
+                                <div class="col-sm">
+                                    <h4 class="dropdown-item"> </h4>
+                                    <div class="dropdown-item whiteline col-sm-1" style="
+                                    border-bottom: 1px solid transparent; margin-top: 2em;"></div>
+                                    <a class="dropdown-item" routerLink="/dewankomisaris">>Dewan Komisaris</a>
+                                    <a class="dropdown-item" routerLink="/dewandireksi">>Dewan Direksi</a>
+                                    <a class="dropdown-item" routerLink="/sekretarisperusahaan">>Sekertaris Perusahaan</a>
                                 </div>
                                 <div class="col-sm"></div>
                             </div>
@@ -164,3 +155,6 @@
             </ul>
         </div>
     </nav>
+
+
+

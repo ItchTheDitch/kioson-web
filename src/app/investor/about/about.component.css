@@ -1,0 +1,244 @@
+/* waris */
+
+.waris {
+    position: absolute;
+    background-color: white;
+    border-radius: 11px;
+    border: 1px solid #bdbbbbb3;
+    width: 84%;
+    height: 256px;
+    padding: 38px 80px 0 80px;
+    left: 8%;
+    top: 49%;
+}
+
+h5#tentangkioson {
+    font-size: 20px;
+    text-align: center;
+}
+
+p#detailkioson {
+    font-size: 23px;
+    text-align: center;
+    margin-top: 47px;
+    padding-left: 39px;
+    margin-right: 38px;
+}
+
+h5 {
+    color: rgb(255, 166, 0);
+    text-align: center;
+}
+
+
+/* 
+p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+.billy {
+    /* background-image: url("../../assets/img/background-orange.jpg"); */
+    min-height: 30%;
+}
+
+.billy h1 {
+    font-size: 311%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 4%;
+}
+
+.billy h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 234%;
+    margin-top: -46px;
+}
+
+
+/* Content #1 */
+
+.content1 {
+    border: 1px solid grey;
+    border-radius: 30px;
+    padding: 60px 0 30px 0;
+    height: 300px;
+}
+
+.content_2 {
+    text-align: left;
+    background-color: #ffffff;
+    padding: 67px;
+    border: 1px solid #bbbbbb;
+    border-radius: 10px;
+}
+
+
+/* Content #2 */
+
+p#visi {
+    color: #0066FF;
+}
+
+p#misi {
+    color: #0066FF;
+}
+
+p#detailvisi {
+    font-size: 10px;
+}
+
+hr {
+    height: 1px;
+}
+
+.content_5 {
+    padding: 20px;
+    margin-top: 23%;
+    margin-right: 0px;
+}
+
+.content_5 h4 {
+    color: #494848;
+    font-size: 34px;
+}
+
+.content_5 h5 {
+    text-align: left;
+    font-size: 27px;
+    margin-top: 15px;
+}
+
+.content_5 p {
+    text-align: left;
+}
+
+.content_5 p#detail {
+    color: black;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.content_5 hr {
+    text-align: left;
+    margin-left: 3px;
+}
+
+.content_5_1 {
+    background-color: #ffffff;
+    padding: 58px;
+    border: 1px solid #bbbbbb;
+    border-radius: 10px;
+    margin-left: 82px;
+    height: 475px;
+    top: -48px;
+}
+
+.content_5_1 img {
+    height: 49px;
+    width: 57px;
+    margin-bottom: 17;
+}
+
+.content_52 {
+    background-color: #ffffff;
+    padding-bottom: -40px;
+    padding: 58px;
+    border: 1px solid #bbbbbb;
+    border-radius: 10px;
+    margin-left: 42px;
+    height: 475px;
+    top: -48px;
+}
+
+.content_52 {
+    text-align: left;
+}
+
+.content_52 img {
+    height: 49px;
+    width: 57px;
+    margin-bottom: 17;
+}
+
+.row .content_5_2 {
+    margin: 10px;
+}
+
+.content_4 {
+    text-align: center;
+}
+
+.content_4 h5 {
+    text-align: center;
+}
+
+
+/* contert_6 Rekam Jejak Kioson */
+
+.content_6 p#year {
+    color: orange;
+    margin-top: 1px;
+    font-size: 21;
+}
+
+.content_6 p#penjelasan {
+    margin-bottom: -1px;
+    padding-top: -4px;
+    margin-left: -15;
+}
+
+.content_6 p#top {
+    padding-top: 5px;
+}
+
+.card.card-body {
+    border: 2px solid #D4D2D2;
+    border-radius: 14px;
+}
+
+.RekamJejak h2 {
+    text-align: center;
+}
+
+.RekamJejak h5 {
+    text-align: center;
+}
+
+
+/* flow */
+
+.nyoba {
+    top: 30%;
+    padding-left: 120px;
+    margin-bottom: 114px;
+}
+
+
+/* bill payment */
+
+#img {
+    display: block;
+    margin: auto;
+}
+
+#timkioson {
+    color: blue;
+    font-style: normal;
+}
+
+.RekamJejak {
+    margin-top: 7%;
+    padding-bottom: 107px
+}
+
+.bussiness {
+    /* position:absolute;  */
+
+    margin-top: 12%;
+    padding-left: 99px;
+}
+
+.bussiness h2 {
+    padding-left: 142px;
+}

@@ -54,6 +54,10 @@ Components
   import { SahamComponent } from './investor/saham/saham.component';
   import { MediaComponent } from './media/media.component';
   import { PemegangSahamComponent } from './investor/pemegang-saham/pemegang-saham.component';
+  import { LembagaPenunjangComponent } from './investor/lembaga-penunjang/lembaga-penunjang.component';
+  import { DewanKomisarisComponent } from './investor/dewan-komisaris/dewan-komisaris.component';
+  import { DewanDireksiComponent } from './investor/dewan-direksi/dewan-direksi.component';
+  import { SekretarisPerusahaanComponent } from './investor/sekretaris-perusahaan/sekretaris-perusahaan.component';
 
   /*
     Home Component en
@@ -139,6 +143,10 @@ Services
     SahamComponent,
     MediaComponent,
     PemegangSahamComponent,
+    LembagaPenunjangComponent,
+    DewanKomisarisComponent,
+    DewanDireksiComponent,
+    SekretarisPerusahaanComponent,
 
     /*
     Home - en 
@@ -182,6 +190,11 @@ Services
       { path: 'financial2017', component: Report2017Component },
       { path: 'saham', component: SahamComponent },
       { path: 'pemegangsaham', component: PemegangSahamComponent },
+      { path: 'lembagapenunjang', component: LembagaPenunjangComponent },
+      { path: 'dewankomisaris', component: DewanKomisarisComponent },
+      { path: 'dewandireksi', component: DewanDireksiComponent },
+      { path: 'sekretarisperusahaan', component: SekretarisPerusahaanComponent },
+      { path: 'about', component: AboutComponent },
       { path: 'investor/financial-statement', component: ReportComponent },
       { path: 'investor/stock-share', component: StockShareComponent },
 

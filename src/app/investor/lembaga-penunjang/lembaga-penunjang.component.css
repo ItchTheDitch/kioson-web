@@ -1,0 +1,66 @@
+.text1{
+    text-align: center; 
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
+    margin-top: -20%;
+    color: white;
+}
+
+.text2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    color: white;
+}
+
+.text3{
+    text-align: center;
+    font-size: 14px; 
+    color: orange;
+    margin-top: 4%;
+}
+
+.text4{
+    text-align: center;
+    font-size: 14px;
+    margin-top: -1%;
+}
+
+.text5{
+    text-align: center;
+    font-size: 14px; 
+    color: orange;
+    margin-top: 3%;
+}
+
+.satu{
+    position: absolute;
+    background-color: white;
+    border-radius: 10px;
+    border:1px solid grey; 
+    height: 330px;
+    width: 88%;
+    top: 70%;
+    margin-left: 6%;
+}
+
+.tablewaris{
+    width: 88%;
+    margin-left: 6%;
+    margin-top: 34%;
+    position: relative;
+}
+
+.table thead th {
+    border-bottom: 1px solid grey;
+}
+
+.table-bordered td, .table-bordered th {
+    border: 1px solid grey;
+}
+
+
+th{
+    font-weight: normal;
+}
