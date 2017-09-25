@@ -4,17 +4,17 @@
             <h3 class="text-putih bold">Dagang apapun, ada disini.</h3>
             <h5 class="text-putih">Aplikasi jualan, transfer uang dan Pinjaman</h5>
             <div class="kartu">
-                <p class="kartu-text">Bergabung dengan +30.000 Mitra di 348 Kota</p>
-                <p class="kartu-text">Kirim link download melalui SMS</p>
+                <p class="kartu-text">Join with +30.000 Partners in 348 Cities</p>
+                <p class="kartu-text">Send Download Link via SMS</p>
                 <input type="text" [(ngModel)]="validatorservice.noPonsel" class="form-control" id="nomor-sms" placeholder="Masukan Nomor Ponsel disini" >
-                <div class="alert alert-warning"  *ngIf="validatorservice.isInvalid">
-                    Nomor yang Anda Masukan Salah !
+                <div class="alert alert-warning"  *ngIf="validatorservice.hpIsInvalid">
+                    Please Input Your Phone Number Correctly !
                 </div>
-                <div class="alert alert-success" *ngIf="validatorservice.telahDikirim">
-                    Link Telah Kami Kirimkan
+                <div class="alert alert-success" *ngIf="validatorservice.hpTelahDikirim">
+                    Link Sent
                 </div>
                 
-                <button type="submit" (click)="validate()" class="btn btn-warning" style="color: white; width:100%; margin-top:10px">Submit</button>
+                <button type="submit" (click)="validate()" class="btn btn-warning" style="color: white; width:100%; margin-top:10px">Send</button>
                 
             </div>
         </div>
@@ -67,14 +67,14 @@
                             <img src="../../assets/img//pasca-bayar.png" alt="">
                         </div>
                         <div class="col tulisan-fitur">
-                            <p class="fitur-hitam">Pascar Bayar</p>
+                            <p class="fitur-hitam">Post Paid</p>
                             <p class="fitur-abu">Bayar Tagihan</p>
                         </div>
                         <div class="col icon-fitur">
                             <img src="../../assets/img//asuransi.png" alt="">
                         </div>
                         <div class="col tulisan-fitur">
-                            <p class="fitur-hitam">Asuransi</p>
+                            <p class="fitur-hitam">Insurance</p>
                             <p class="fitur-abu">Proteksi</p>
                         </div>
                         <div class="col icon-fitur">
@@ -99,15 +99,15 @@
                             <img src="../../assets/img//perbankan.png" alt="">
                         </div>
                         <div class="col tulisan-fitur">
-                            <p class="fitur-hitam">Perbankan</p>
+                            <p class="fitur-hitam">Banking</p>
                             <p class="fitur-abu">Buka Rekening</p>
                         </div>
                         <div class="col icon-fitur">
                             <img src="../../assets/img//kupongame.png" alt="" class="">
                         </div>
                         <div class="col tulisan-fitur">
-                            <p class="fitur-hitam">Kupon Game</p>
-                            <p class="fitur-abu">E-VocerGame</p>
+                            <p class="fitur-hitam">Game Coupon</p>
+                            <p class="fitur-abu">E-Voucher</p>
                         </div>
                         <div class="col icon-fitur">
                             <img src="../../assets/img//bayar-tv.png" alt="">
@@ -131,27 +131,27 @@
                             <img src="../../assets/img//Pinjaman.png" alt="">
                         </div>
                         <div class="col tulisan-fitur">
-                            <p class="fitur-hitam">Pinjaman</p>
+                            <p class="fitur-hitam">Loan</p>
                             <p class="fitur-abu">Danamas</p>
                         </div>
                         <div class="col icon-fitur">
                             <img src="../../assets/img//kereta-api.png" alt="">
                         </div>
                         <div class="col tulisan-fitur">
-                            <p class="fitur-hitam">Kereta Api</p>
+                            <p class="fitur-hitam">Train Tickets</p>
                             <p class="fitur-abu">Pembayaran</p>
                         </div>
                         <div class="col icon-fitur">
                             <img src="../../assets/img//keagenan.png" alt="">
                         </div>
                         <div class="col tulisan-fitur">
-                            <p class="fitur-hitam">Keagenan</p>
-                            <p class="fitur-abu">Mitra</p>
+                            <p class="fitur-hitam">Agency</p>
+                            <p class="fitur-abu">Partners</p>
                         </div>
                         <!-- end of row4 -->
                     </div>
                 </div>
-                <h6 class="16fitur">16 Fitur Layanan Usaha Terbaik Dalam Satu Genggaman</h6>
+                <h6 class="16fitur">16 Best Business Service Feature in Your Hand</h6>
                 <!-- end waris -->
             </div>
         </div>
@@ -162,8 +162,8 @@
             <div class="row">
                 <div class="col align-self-start"></div>
                 <div class="gabunganlogo col align-self-center">
-                    <span class="tersedia-di">Tersedia di:</span>
-                    <a href="">
+                    <span class="tersedia-di" style="margin-right:20px;">Available in:</span>
+                    <a href="https://play.google.com/store/apps/details?id=com.ipay.kioson">
                         <img class="logo-getit" src="../../assets/img/GetItOnGP.png">
                     </a>
                 </div>

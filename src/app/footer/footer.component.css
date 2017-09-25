@@ -5,7 +5,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-.medpar.col-md-10.col-md-offset-1 {
+
+ .medpar.col-md-10.col-md-offset-1 {
     margin-top: 190px;
 }
 
@@ -131,27 +132,6 @@ img#BisnisTv {
 }
 
 
-/*
-img#JakartaPost {
-    margin-right: -40px;
-}
-
-img#KoranTempo {
-    margin-right: -100px;
-}
-
-img#Republika {
-    margin-left: -25px;
-}
-
-img#Indopos {
-    margin-left: -160px;
-}
-
-img#pasardana {
-    margin-left: 14px;
-} */
-
 .medpar {
     margin-top: 30px;
 }
@@ -225,8 +205,18 @@ img#pasardana {
 }
 
 #email {
-    margin-top: 70px;
-    height: 45px;
+    margin-top: 0px;
+    height: 49px;
+    width: 160px;
+}
+#nama {
+    margin-top: 0px;
+    height: 49px;
+    width: 160px;
+}
+
+.form-tersembunyi{
+    margin-left: 25px;
 }
 
 .footer-menu a {
@@ -1077,10 +1067,10 @@ th {
     border-radius: 0;
 }
 
-input#email {
+/* input#email {
     width: 171px;
     height: 49px;
-}
+} */
 
 #content input {
     width: 35%;
@@ -1089,12 +1079,6 @@ input#email {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
-
-#email {
-    margin-top: 70px;
-    height: 45px;
-}
-
 .footer-menu a {
     color: white;
     outline: 0;
@@ -1132,8 +1116,14 @@ input#email {
     padding-top: 125px;
 }
 
+.alert-email{
+    margin-left: 35px;
+    margin-right: 75px;
+    margin-bottom: -25px;
+}
+
 #form-email {
-    padding-left: 38px;
+    padding-left: 50px;
     margin-top: 27px;
 }
 
@@ -1214,9 +1204,9 @@ p#download {
     padding: 12px;
     width: 120px;
     margin: 20px;
-    margin-left: -4px;
+    margin-left: 0px;
     left: 90px;
-    margin-top: 16px;
+    margin-top: 0px;
     height: 48px;
     font-style: arial;
 }

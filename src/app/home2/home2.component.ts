@@ -19,7 +19,7 @@ export class HomeComponent2 implements OnInit {
   }
 
   validate(){
-    this.validatorservice.validate();
+    this.validatorservice.validateHP();
 
   }
 }
