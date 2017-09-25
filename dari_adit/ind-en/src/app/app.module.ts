@@ -162,6 +162,10 @@ import { MetadataService } from './services/metadata.service';
       { path: 'investor/financial-statement', component: ReportComponent },
       { path: 'investor/stock-share', component: StockShareComponent },
 
+      /*
+      En Route Path
+      */
+
       { path: 'en/investor', component: InvestorComponent2 },
       { path: 'en', component: HomeComponent2 },
     ]),
