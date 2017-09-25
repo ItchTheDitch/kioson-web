@@ -47,6 +47,13 @@ Components
 
   import { StockShareComponent } from './investor/stock-share/stock-share.component';
   import { NavbarInvestorComponent } from './investor/navbar-investor/navbar-investor.component';
+  
+  import { Report2015Component } from './investor/report2015/report2015.component';
+  import { Report2016Component } from './investor/report2016/report2016.component';
+  import { Report2017Component } from './investor/report2017/report2017.component';
+  import { SahamComponent } from './investor/saham/saham.component';
+  import { MediaComponent } from './media/media.component';
+  import { PemegangSahamComponent } from './investor/pemegang-saham/pemegang-saham.component';
 
   /*
     Home Component en
@@ -88,12 +95,7 @@ Services
 
   
 
-import { Report2015Component } from './investor/report2015/report2015.component';
-import { Report2016Component } from './investor/report2016/report2016.component';
-import { Report2017Component } from './investor/report2017/report2017.component';
-import { SahamComponent } from './investor/saham/saham.component';
-import { MediaComponent } from './media/media.component';
-import { PemegangSahamComponent } from './investor/pemegang-saham/pemegang-saham.component';
+
 @NgModule({
   declarations: [
     /*
