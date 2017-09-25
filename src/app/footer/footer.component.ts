@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+// service
+import { ValidatorService } from '../services/validator.service';
 
 @Component({
   selector: 'app-footer',
@@ -7,9 +9,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
-  constructor() { }
+  constructor(private validatorservice:ValidatorService) { }
 
   ngOnInit() {
+  }
+
+  validate(){
+    this.validatorservice.validateEmail();
+
+  }
+  langgananEmail(){
+    this.validatorservice.langgananEmail();
+
   }
 
 }
