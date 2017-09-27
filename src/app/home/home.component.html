@@ -7,7 +7,7 @@
                 <p class="kartu-text">Bergabung dengan +30.000 Mitra di 348 Kota</p>
                 <p class="kartu-text">Kirim link download melalui SMS</p>
                 <input type="text" [(ngModel)]="validatorservice.noPonsel" class="form-control" id="nomor-sms" placeholder="Masukan Nomor Ponsel disini" >
-                <div class="alert alert-warning"  *ngIf="validatorservice.hpIsInvalid">
+                <div class="alert alert-danger"  *ngIf="validatorservice.hpIsInvalid">
                     Nomor yang Anda Input Salah !
                 </div>
                 <div class="alert alert-success" *ngIf="validatorservice.hpTelahDikirim">
