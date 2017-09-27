@@ -1,10 +1,66 @@
+.navbar a{
+    color: white;
+}
+.navbar h4{
+	color:white;
+}
+div#navbarNavDropdown {
+    padding-left: 13%;
+}
+
+.navbar-brand {
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 1%;
+}
+
+.show {
+    background-color: rgb(4, 113, 201);
+}
+
+.dropdown-item:hover {
+    background-color: rgb(68, 174, 251);
+}
+
+.dropdown {
+    position: static;
+}
+
+.whiteline {
+    border-bottom: 1px solid white;
+    margin-bottom: 5%;
+    left: 10%;
+}
+
+.dropdown-menu {
+    width: 100%;
+    background-color: rgb(68, 174, 251);
+    margin-top: 0px;
+}
+
+.navbarinvestor {
+    background-color: rgb(0, 95, 164) !important;
+}
+
+
+/* Anchor Style */
+
+#KegiatanUsaha {
+    margin-top: -60px;
+    padding: 60px 1.1em 1.1em;
+    display: block;
+    position: relative;
+    /*add approx 1.1em in px for top padding here*/
+}
+
+
 /* End of navbar */
 
 .tagline {
     position: absolute;
     background-color: white;
     border-radius: 11px;
-    border: 1px solid grey;
+    border: 1px solid #bbbbbb;
     width: 84%;
     height: 256px;
     padding: 38px 80px 0 80px;
@@ -12,17 +68,19 @@
     top: 69%;
 }
 
-h5#tentangkioson {
+
+#tentangkioson {
     font-size: 20px;
     text-align: center;
 }
 
 p#detailkioson {
-    font-size: 23px;
-    text-align: center;
-    margin-top: 47px;
-    padding-left: 39px;
-    margin-right: 38px;
+  font-size: 21px;
+text-align: center;
+margin-top: 36px;
+padding-left: 39px;
+margin-right: 38px;
+font-family: arial;
 }
 
 h5 {
@@ -99,13 +157,13 @@ hr {
 }
 
 .content_5 h4 {
-    color: #494848;
+    color: #6b6767;
     font-size: 34px;
 }
 
 .content_5 h5 {
     text-align: left;
-    font-size: 27px;
+    font-size: 25px;
     margin-top: 15px;
 }
 
@@ -116,7 +174,8 @@ hr {
 .content_5 p#detail {
     color: black;
     font-size: 19px;
-    font-weight: 500;
+    font-weight: 400;
+	font-family: arial;
 }
 
 .content_5 hr {
@@ -240,4 +299,8 @@ hr {
 
 .bussiness h2 {
     padding-left: 142px;
+}
+
+.bussiness h4 {
+    color:black;
 }

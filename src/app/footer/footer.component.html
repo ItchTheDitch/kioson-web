@@ -65,13 +65,13 @@
 
                 <div class="form-group ">
                     <p id="download">Segera Download Kioson<br/> dan Nikmati Berbagai Kemudahannya</p><br/>
-                    <div class="alert alert-warning alert-email"  *ngIf="validatorservice.emailSalah">
+                    <div class="alert alert-danger alert-email"  *ngIf="validatorservice.emailSalah">
                         Email yang Kamu Input Salah !
                     </div>
-                    <div class="alert alert-success alert-email"  *ngIf="validatorservice.namaSalah">
+                    <div class="alert alert-danger alert-email"  *ngIf="validatorservice.namaSalah">
                         Nama yang Kamu Input Salah !
                     </div>
-                    <div class="alert alert-success alert-email" *ngIf="validatorservice.emailValid">
+                    <div class="alert alert-success alert-email" *ngIf="validatorservice.emailValid && validatorservice.namaBelumSalah">
                         Masukan Namamu
                     </div>
                     <div class="alert alert-success alert-email" *ngIf="validatorservice.emailDikirim">
