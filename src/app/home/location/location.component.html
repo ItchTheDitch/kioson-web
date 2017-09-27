@@ -8,18 +8,18 @@
         <div style="padding-top:20%;">
             <div class="datakota" >
                <select [(ngModel)]="propinsi" (ngModelChange)="getDataKota($event)" name="provinsi" style="width:19%; margin-bottom:15px; margin-right:15px;">
-                  <option *ngFor="let n of propinsis" [value]="n[0]">{{n[1]}}</option>
+                  <option class="dropdown-location" *ngFor="let n of propinsis" [value]="n[0]">{{n[1]}}</option>
               </select>
               <select [(ngModel)]="kota" (ngModelChange)="getDataKecamatan($event)" [disabled]="butDisabled1" name="kota" style="width:19%; margin-bottom:15px;">
-                  <option *ngFor="let n of kotas" [value]="n[0]">{{n[1]}}</option>
+                  <option class="dropdown-location" *ngFor="let n of kotas" [value]="n[0]">{{n[1]}}</option>
               </select> 
             </div>
             <div class="datakota" >
                <select [(ngModel)]="kecamatan" (ngModelChange)="getDataKelurahan($event)" [disabled]="butDisabled2" name="kecamatan" style="width:19%; margin-right:15px;">
-                  <option *ngFor="let n of kecamatans" [value]="n[0]">{{n[1]}}</option>
+                  <option class="dropdown-location" *ngFor="let n of kecamatans" [value]="n[0]">{{n[1]}}</option>
               </select>
               <select [(ngModel)]="kelurahan" [disabled]="butDisabled3" name="kelurahan" style="width:19%;">
-                   <option *ngFor="let n of kelurahans" [value]="n[0]">{{n[1]}}</option>
+                   <option class="dropdown-location" *ngFor="let n of kelurahans" [value]="n[0]">{{n[1]}}</option>
               </select> 
             </div>
           <button (click) = "getDataKios()" class="btn btn-lg btn-danger" style="width:40%; margin-top:15px;background-color:orange">Cari Mitra Kioson</button>
