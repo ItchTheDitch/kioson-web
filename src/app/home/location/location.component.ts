@@ -55,7 +55,7 @@ export class LocationComponent implements OnInit {
     let headers = new Headers({ "Content-Type" : "application/json" });
     let options = new RequestOptions({ headers : headers });
 
-    return this.http.post('http://localhost:8000/api/kioson/kota', body, options)
+    return this.http.post('http://davidtobing.com:81/api/kioson/kota', body, options)
     .map(result => result.json())
     .subscribe(result => {
                             this.butDisabled1 = false;
@@ -78,7 +78,7 @@ export class LocationComponent implements OnInit {
     let headers = new Headers({ "Content-Type" : "application/json" });
     let options = new RequestOptions({ headers : headers });
 
-    return this.http.post('http://localhost:8000/api/kioson/kecamatan', body, options)
+    return this.http.post('http://davidtobing.com:81/api/kioson/kecamatan', body, options)
     .map(result => result.json())
     .subscribe(result => {
                             this.kecamatans = result;
@@ -96,7 +96,7 @@ export class LocationComponent implements OnInit {
     let headers = new Headers({ "Content-Type" : "application/json" });
     let options = new RequestOptions({ headers : headers });
 
-    return this.http.post('http://localhost:8000/api/kioson/kelurahan', body, options)
+    return this.http.post('http://davidtobing.com:81/api/kioson/kelurahan', body, options)
     .map(result => result.json())
     .subscribe(result => {
                             this.kelurahan = "";
@@ -112,7 +112,7 @@ export class LocationComponent implements OnInit {
      let headers = new Headers({ "Content-Type" : "application/json" });
      let options = new RequestOptions({ headers : headers });
  
-     return this.http.post('http://localhost:8000/api/kioson/kios', body, options)
+     return this.http.post('http://davidtobing.com:81/api/kioson/kios', body, options)
      .map(result => result.json())
      .subscribe(result => {
                             this.kios = result;

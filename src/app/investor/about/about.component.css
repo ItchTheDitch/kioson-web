@@ -1,15 +1,15 @@
-/* waris */
+/* End of navbar */
 
-.waris {
+.tagline {
     position: absolute;
     background-color: white;
     border-radius: 11px;
-    border: 1px solid #bdbbbbb3;
+    border: 1px solid grey;
     width: 84%;
     height: 256px;
     padding: 38px 80px 0 80px;
     left: 8%;
-    top: 49%;
+    top: 69%;
 }
 
 h5#tentangkioson {
@@ -37,19 +37,19 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 } */
 
-.billy {
+.hemage {
     /* background-image: url("../../assets/img/background-orange.jpg"); */
     min-height: 30%;
 }
 
-.billy h1 {
+.hemage h1 {
     font-size: 311%;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     margin-top: 4%;
 }
 
-.billy h3 {
+.hemage h3 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 234%;
     margin-top: -46px;
@@ -129,15 +129,15 @@ hr {
     padding: 58px;
     border: 1px solid #bbbbbb;
     border-radius: 10px;
-    margin-left: 82px;
-    height: 475px;
-    top: -48px;
+    margin-left: 100px;
+    height: 487px;
+    top: -40px;
 }
 
 .content_5_1 img {
-    height: 49px;
-    width: 57px;
-    margin-bottom: 17;
+    height: 46px;
+    width: 49px;
+    margin-bottom: 19px;
 }
 
 .content_52 {
@@ -147,8 +147,8 @@ hr {
     border: 1px solid #bbbbbb;
     border-radius: 10px;
     margin-left: 42px;
-    height: 475px;
-    top: -48px;
+    height: 486px;
+    top: -40px;
 }
 
 .content_52 {
@@ -156,9 +156,9 @@ hr {
 }
 
 .content_52 img {
-    height: 49px;
-    width: 57px;
-    margin-bottom: 17;
+    height: 46px;
+    width: 49px;
+    margin-bottom: 19px;
 }
 
 .row .content_5_2 {
@@ -178,14 +178,14 @@ hr {
 
 .content_6 p#year {
     color: orange;
-    margin-top: 1px;
-    font-size: 21;
+    margin-top: 5px;
+    font-size: 19px;
 }
 
 .content_6 p#penjelasan {
     margin-bottom: -1px;
     padding-top: -4px;
-    margin-left: -15;
+    margin-left: -16px;
 }
 
 .content_6 p#top {
@@ -234,7 +234,6 @@ hr {
 
 .bussiness {
     /* position:absolute;  */
-
     margin-top: 12%;
     padding-left: 99px;
 }
