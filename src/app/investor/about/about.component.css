@@ -1,6 +1,7 @@
 .navbar a
 {
 color: white!important;
+cursor: pointer;
 }
 .navbar h4{
     color: white;
@@ -314,7 +315,7 @@ hr {
 }
 
 .bussiness h2 {
-    padding-left: 142px;
+    text-align: center;
 }
 
 .bussiness h4 {
