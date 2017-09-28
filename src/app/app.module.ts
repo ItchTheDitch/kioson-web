@@ -94,8 +94,8 @@ Services
   import { LocationService } from './services/location.service'
   import { ValidatorService } from './services/validator.service';
   import { InvestorPageComponent } from './investor/investor-page/investor-page.component';
-import { IndexEnComponent } from './index-en/index-en.component';
-import { IndexIdComponent } from './index-id/index-id.component';
+  import { IndexEnComponent } from './index-en/index-en.component';
+  import { IndexIdComponent } from './index-id/index-id.component';
   
 
   
