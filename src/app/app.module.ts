@@ -94,7 +94,8 @@ Services
   import { LocationService } from './services/location.service'
   import { ValidatorService } from './services/validator.service';
   import { InvestorPageComponent } from './investor/investor-page/investor-page.component';
-  import { MetadataService } from './services/metadata.service';
+import { IndexEnComponent } from './index-en/index-en.component';
+import { IndexIdComponent } from './index-id/index-id.component';
   
 
   
@@ -175,6 +176,8 @@ Services
     AboutComponent2,
     StockShareComponent2,
     NavbarInvestorComponent2,
+    IndexEnComponent,
+    IndexIdComponent,
     
     
   ],
@@ -183,34 +186,50 @@ Services
     FormsModule,
     HttpModule,
     RouterModule.forRoot([
-      { path: '', component: HomeComponent },
-      { path: 'investor', component: InvestorComponent },
-      { path: 'financial2015', component: Report2015Component },
-      { path: 'financial2016', component: Report2016Component },
-      { path: 'financial2017', component: Report2017Component },
-      { path: 'saham', component: SahamComponent },
-      { path: 'pemegangsaham', component: PemegangSahamComponent },
-      { path: 'lembagapenunjang', component: LembagaPenunjangComponent },
-      { path: 'dewankomisaris', component: DewanKomisarisComponent },
-      { path: 'dewandireksi', component: DewanDireksiComponent },
-      { path: 'sekretarisperusahaan', component: SekretarisPerusahaanComponent },
-      { path: 'about', component: AboutComponent },
-      { path: 'investor/financial-statement', component: ReportComponent },
-      { path: 'investor/stock-share', component: StockShareComponent },
+      { path: '', 
+      component: IndexIdComponent,
+      children:[
+        { path: '', component: HomeComponent },
+        { path: 'investor', 
+          component: InvestorComponent,
+          children:[
+            { path: '', component: InvestorPageComponent },
+            { path: 'saham', component: SahamComponent },
+            { path: 'pemegangsaham', component: PemegangSahamComponent },
+            { path: 'lembagapenunjang', component: LembagaPenunjangComponent },
+            { path: 'dewankomisaris', component: DewanKomisarisComponent },
+            { path: 'dewandireksi', component: DewanDireksiComponent },
+            { path: 'sekretarisperusahaan', component: SekretarisPerusahaanComponent },
+            { path: 'about', component: AboutComponent },//
+            { path: 'financial-statement', component: ReportComponent },
+            { path: 'stock-share', component: StockShareComponent },
+            { path: 'financial2015', component: Report2015Component },
+            { path: 'financial2016', component: Report2016Component },
+            { path: 'financial2017', component: Report2017Component },
+          ] 
+        },
+        
+        
+       ] 
+      },
+
+     
+      
 
       /*
       En Route Path
       */
 
+
+
       { path: 'en/investor', component: InvestorComponent2 },
-      { path: 'en', component: HomeComponent2 },
+      { path: 'en', component: IndexEnComponent },
     ]),
     HttpModule,
   ],
   providers: [
     LocationService,
     ValidatorService,
-    MetadataService,
   ],
   bootstrap: [AppComponent]
 })
