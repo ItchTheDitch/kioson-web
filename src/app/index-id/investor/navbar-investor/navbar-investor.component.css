@@ -1,0 +1,57 @@
+a,h4
+{
+color: white!important;
+}
+div#navbarNavDropdown{
+    padding-left: 13%;
+}
+
+.navbar-brand
+{
+border: 1.4px solid white;
+border-radius: 50px;
+padding:0.7% 2% 1% 2%;
+max-height: 55px;
+}
+.show{
+    background-color: rgb(4, 113, 201);
+    top:69px;
+
+}
+.dropdown-menu.show {
+    padding-top: 4%;
+    padding-bottom: 2%;
+    min-height: 370px;
+}
+.dropdown-item{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.dropdown-item:hover
+{
+background-color: rgb(68, 174, 251);
+}
+.dropdown
+{
+position: static;
+}
+.whiteline
+{
+border-bottom: 1px solid white;
+margin-bottom: 5%;
+left: 10%;
+}
+.dropdown-menu
+{
+width: 100%;
+background-color: rgb(68, 174, 251);
+margin-top: 0px;
+}
+.navbarinvestor
+{
+background-color: rgb(6, 130, 219) !important;
+}
+li.nav-item.dropdown{
+    margin-right:77px !important;
+}

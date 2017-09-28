@@ -1,0 +1,100 @@
+
+<!-- Footer -->
+<div class="footer margin naik">
+    <div class="container">
+        <div class="row">
+            <div class="footer-address col-6 col-lg-4 " style="font-size:10px; padding-top:20px;">
+                <h3 border="0px">PT KIOSON KOMERSIAL INDONESIA</h3>
+                <br>
+                <div class="contact-kantor" margin-bottom="10px">
+                    <b id="kantor">Head Office</b>
+                    <!-- <address margin-bottom="10px"> -->
+                    <ul>
+                        <li>AXA Tower Kuningan City Lantai 42</li>
+                        <li>Jl. Prof. Dr Satria Kavling</li>
+                        <li>Karet Kuningan, Jakarta Selatan</li>
+                        <li>DKI Jakarta -12490</li>
+                        <li>Telp: 021-12345678</li>
+                        <li>Fax: 021-12345678</li>
+                        <li> Email: info@kioson.com</li>
+                    </ul>
+                    <!-- </address> -->
+                    <br/>
+
+                    <p id="hours">Office Hour: 09.00-16.00 WIB
+                        <br> CS' Office Hour:08.00-22.00 WIB</p>
+
+                </div>
+            </div>
+
+
+            <!-- Footer Menu -->
+
+
+            <div class="footer-menu col-lg-4 col-6 " style="margin-top:20px;">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <br>
+                    <li><a href="../about">ABOUT KIOSON</a></li>
+                    <br>
+                    <!-- <li><a href="">BISNIS</a></li>
+                    <br>
+                    <li><a href="">JADI AGEN</a></li>
+                    <br> -->
+                    <li><a href="">CAREER</a></li>
+                    <br>
+                    <li><a href="">BLOG</a></li>
+                    <br>
+                    <!-- <li><a href="">HUBUNGI KIOSON</a></li> -->
+
+                    <br>
+                </ul>
+            </div>
+
+
+            <!-- Footer Google play -->
+            <div class="footer-btn col-lg-4 col-6 " style="margin-top:15px;">
+                <a href="https://play.google.com/store/apps/details?id=com.ipay.kioson&hl=en">
+                    <img id="badges" src="../../assets/img/googlebadges.png">
+                </a>
+                <br>
+
+                <br>
+
+
+
+                <div class="form-group ">
+                    <p id="download">Download Kioson<br/> and Enjoy the Convenience</p><br/>
+                    <div class="alert alert-danger alert-email"  *ngIf="validatorservice.emailSalah">
+                        Please Enter Email Correctly !
+                    </div>
+                    <div class="alert alert-danger alert-email"  *ngIf="validatorservice.namaSalah">
+                        Please Enter Your Name Correctly !
+                    </div>
+                    <div class="alert alert-success alert-email" *ngIf="validatorservice.emailValid && validatorservice.namaBelumSalah">
+                        Enter Your Name
+                    </div>
+                    <div class="alert alert-success alert-email" *ngIf="validatorservice.emailDikirim">
+                        Subscribed
+                    </div>
+                    <div id='form-email' style='width:100%;'>
+                        <div class="row">
+                            <!-- <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required/> -->
+                            <input type='email' [(ngModel)]="validatorservice.email" id="email" placeholder="Enter Your Email.." *ngIf="validatorservice.emailBelumBenar && validatorservice.namaIsNull">
+                            <input type='text' [(ngModel)]="validatorservice.nama" id="nama" placeholder="Enter Your Name.." *ngIf="validatorservice.emailValid">
+                            <button type="submit" (click)="validate()" class="btn btn-dark btn-lg sharp"  *ngIf="validatorservice.emailBelumBenar && validatorservice.namaIsNull">Submit</button>
+                            <button type="submit" (click)="langgananEmail()" class="btn btn-dark btn-lg sharp" *ngIf="validatorservice.emailValid">Subscribe</button>
+                            
+                        </div>
+                    </div>
+                    
+                       
+                    
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>

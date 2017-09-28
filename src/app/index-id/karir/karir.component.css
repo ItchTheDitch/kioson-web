@@ -1,0 +1,22 @@
+.tagLine {
+	text-align: center; 
+	color: #ffffff;
+	margin-top: 20px;
+
+}
+
+.tagLineBold {
+	 text-align: center; 
+	 color: #ffffff; 
+	 
+	 font-weight: bold;
+}
+
+
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+

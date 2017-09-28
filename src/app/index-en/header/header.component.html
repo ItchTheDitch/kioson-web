@@ -1,0 +1,37 @@
+ <!-- Indonesia -->
+ <nav class="navbar navbar navbar-light ">
+    <a class="navbar-brand" routerLink="/" routerLinkActive="active">
+        <img src="../assets/img/Logo.png" style="height:70px;">
+    </a>
+    <ul class="nav justify-content-end">
+        <li>
+            <a class="nav-link" href="#" style="color:black;" (click)="navigateTo('#Kemitraan')">Partner</a>
+        </li>
+        <li>
+            <a class="nav-link" routerLink="/investor" routerLinkActive="active" style="color:black;">Investor</a>
+        </li>
+        <li>
+            <a class="nav-link" href="http://blog.kioson.com" style="color:black;">Blog</a>
+        </li>
+        <li>
+            <a class="nav-link" href="/karir" style="color:black;">Career</a>
+        </li>
+        <li>
+            <a href="https://play.google.com/store/apps/details?id=com.ipay.kioson">
+                <button type="button" class="btn btn-outline-secondary">
+                    <img class="bendera" src="../assets/img/PlaystoreLogo.png" style="height:18px;">Download
+                </button>
+            </a>
+        </li>
+        <li>
+            <div class="dropdown dropdown-bendera">
+                <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img class="bendera" src="../assets/img/EN.png" style="height:18px;">EN
+                </button>
+                <div class="dropdown-menu menu-bendera" aria-labelledby="dropdownMenuButton" style="min-width:90px;">
+                    <a href=""><img class="bendera" src="../assets/img/INA.png" style="height:18px;">ID</a>
+                </div>
+            </div>
+        </li>
+    </ul>
+</nav>

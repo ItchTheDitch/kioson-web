@@ -15,87 +15,112 @@ Components
   /*
     Static
   */
-  import { AppComponent } from './app.component';
-  import { HeaderComponent } from './header/header.component';
-  import { FooterComponent } from './footer/footer.component';
 
+  // parent
+  import { IndexEnComponent } from './index-en/index-en.component';
+  import { IndexIdComponent } from './index-id/index-id.component';
+  import { AppComponent } from './app.component';
+
+  // ID
+  import { HeaderComponent } from './index-id/header/header.component';
+  import { FooterComponent } from './index-id/footer/footer.component';
+  import { KarirComponent } from './index-id/karir/karir.component';
+  import { HomeComponent } from './index-id/home/home.component';
   /*
     Home Component
   */
-  import { HomeComponent } from './home/home.component';
-  import { PhoneDownloadComponent } from './home/phone-download/phone-download.component';
-  import { FeatureComponent } from './home/feature/feature.component';
-  import { GoogleLinkComponent } from './home/google-link/google-link.component';
-  import { GuideHelpComponent } from './home/guide-help/guide-help.component';
-  import { TestimonyComponent } from './home/testimony/testimony.component';
-  import { LocationComponent } from './home/location/location.component';
-  import { BlogComponent } from './home/blog/blog.component';
-  /*
-    Investor Component
-  */
-  import { InvestorComponent } from './investor/investor.component';
-  import { BursaComponent } from './investor/bursa/bursa.component';
-  import { StockPriceComponent } from './investor/stock-price/stock-price.component';
-  import { BusinessComponent } from './investor/business/business.component';
-  import { InvestorInformationComponent } from './investor/investor-information/investor-information.component';
-  import { NewsMediaComponent } from './investor/news-media/news-media.component';
-
-  import { ReportComponent } from './investor/report/report.component';
-  import { ResponsibilitiesComponent } from './investor/responsibilities/responsibilities.component';
-  import { CollaborationComponent } from './investor/collaboration/collaboration.component';
-  import { AboutComponent } from './investor/about/about.component';
-
-  import { StockShareComponent } from './investor/stock-share/stock-share.component';
-  import { NavbarInvestorComponent } from './investor/navbar-investor/navbar-investor.component';
   
-  import { Report2015Component } from './investor/report2015/report2015.component';
-  import { Report2016Component } from './investor/report2016/report2016.component';
-  import { Report2017Component } from './investor/report2017/report2017.component';
-  import { SahamComponent } from './investor/saham/saham.component';
-  import { MediaComponent } from './media/media.component';
-  import { PemegangSahamComponent } from './investor/pemegang-saham/pemegang-saham.component';
-  import { LembagaPenunjangComponent } from './investor/lembaga-penunjang/lembaga-penunjang.component';
-  import { DewanKomisarisComponent } from './investor/dewan-komisaris/dewan-komisaris.component';
-  import { DewanDireksiComponent } from './investor/dewan-direksi/dewan-direksi.component';
-  import { SekretarisPerusahaanComponent } from './investor/sekretaris-perusahaan/sekretaris-perusahaan.component';
-
-  /*
-    Home Component en
-  */
-  import { HomeComponent2 } from './home2/home2.component';
-  import { PhoneDownloadComponent2 } from './home2/phone-download/phone-download2.component';
-  import { FeatureComponent2 } from './home2/feature/feature2.component';
-  import { GoogleLinkComponent2 } from './home2/google-link/google-link2.component';
-  import { GuideHelpComponent2 } from './home2/guide-help/guide-help2.component';
-  import { TestimonyComponent2 } from './home2/testimony/testimony2.component';
-  import { LocationComponent2 } from './home2/location/location2.component';
-  import { BlogComponent2 } from './home2/blog/blog2.component';
+  import { GuideHelpComponent } from './index-id/home/guide-help/guide-help.component';
+  import { TestimonyComponent } from './index-id/home/testimony/testimony.component';
+  import { LocationComponent } from './index-id/home/location/location.component';
+  import { BlogComponent } from './index-id/home/blog/blog.component';
+  import { MediaComponent } from './index-id/home/media/media.component';
   /*
     Investor Component
   */
-  import { InvestorComponent2 } from './investor2/investor2.component';
-  import { BursaComponent2 } from './investor2/bursa/bursa2.component';
-  import { StockPriceComponent2 } from './investor2/stock-price/stock-price2.component';
-  import { BusinessComponent2 } from './investor2/business/business2.component';
-  import { InvestorInformationComponent2 } from './investor2/investor-information/investor-information2.component';
-  import { NewsMediaComponent2 } from './investor2/news-media/news-media2.component';
+  import { InvestorComponent } from './index-id/investor/investor.component';
+  import { BursaComponent } from './index-id/investor/bursa/bursa.component';
+  import { StockPriceComponent } from './index-id/investor/stock-price/stock-price.component';
+  import { BusinessComponent } from './index-id/investor/business/business.component';
+  import { InvestorInformationComponent } from './index-id/investor/investor-information/investor-information.component';
+  import { InvestorPageComponent } from './index-id/investor/investor-page/investor-page.component';
+  import { NewsMediaComponent } from './index-id/investor/news-media/news-media.component';
+  import { ReportComponent } from './index-id/investor/report/report.component';
+  import { ResponsibilitiesComponent } from './index-id/investor/responsibilities/responsibilities.component';
+  import { CollaborationComponent } from './index-id/investor/collaboration/collaboration.component';
+  import { AboutComponent } from './index-id/investor/about/about.component';
 
-  import { ReportComponent2 } from './investor2/report/report2.component';
-  import { ResponsibilitiesComponent2 } from './investor2/responsibilities/responsibilities2.component';
-  import { CollaborationComponent2 } from './investor2/collaboration/collaboration2.component';
-  import { AboutComponent2 } from './investor2/about/about2.component';
+  import { StockShareComponent } from './index-id/investor/stock-share/stock-share.component';
+  import { NavbarInvestorComponent } from './index-id/investor/navbar-investor/navbar-investor.component';
+  
+  import { Report2015Component } from './index-id/investor/report2015/report2015.component';
+  import { Report2016Component } from './index-id/investor/report2016/report2016.component';
+  import { Report2017Component } from './index-id/investor/report2017/report2017.component';
+  import { SahamComponent } from './index-id/investor/saham/saham.component';
+  
+  import { PemegangSahamComponent } from './index-id/investor/pemegang-saham/pemegang-saham.component';
+  import { LembagaPenunjangComponent } from './index-id/investor/lembaga-penunjang/lembaga-penunjang.component';
+  import { DewanKomisarisComponent } from './index-id/investor/dewan-komisaris/dewan-komisaris.component';
+  import { DewanDireksiComponent } from './index-id/investor/dewan-direksi/dewan-direksi.component';
+  import { SekretarisPerusahaanComponent } from './index-id/investor/sekretaris-perusahaan/sekretaris-perusahaan.component';
 
-  import { StockShareComponent2 } from './investor2/stock-share/stock-share2.component';
-  import { NavbarInvestorComponent2 } from './investor2/navbar-investor/navbar-investor2.component';
+  
+
+  // #########################################################################
+
+  // EN
+  import { HeaderComponent2 } from './index-en/header/header.component';
+  import { FooterComponent2 } from './index-en/footer/footer.component';
+  import { KarirComponent2 } from './index-en/karir/karir.component';
+  import { HomeComponent2 } from './index-en/home/home.component';
+  /*
+    Home Component
+  */
+
+  import { GuideHelpComponent2 } from './index-en/home/guide-help/guide-help.component';
+  import { TestimonyComponent2 } from './index-en/home/testimony/testimony.component';
+  import { LocationComponent2 } from './index-en/home/location/location.component';
+  import { BlogComponent2 } from './index-en/home/blog/blog.component';
+  import { MediaComponent2 } from './index-en/home/media/media.component';
+  /*
+    Investor Component
+  */
+  import { InvestorComponent2 } from './index-en/investor/investor.component';
+  import { BursaComponent2 } from './index-en/investor/bursa/bursa.component';
+  import { StockPriceComponent2 } from './index-en/investor/stock-price/stock-price.component';
+  import { BusinessComponent2 } from './index-en/investor/business/business.component';
+  import { InvestorPageComponent2 } from './index-en/investor/investor-page/investor-page.component';
+  import { InvestorInformationComponent2 } from './index-en/investor/investor-information/investor-information.component';
+
+  import { NewsMediaComponent2 } from './index-en/investor/news-media/news-media.component';
+  import { ReportComponent2 } from './index-en/investor/report/report.component';
+  import { ResponsibilitiesComponent2 } from './index-en/investor/responsibilities/responsibilities.component';
+  import { CollaborationComponent2 } from './index-en/investor/collaboration/collaboration.component';
+  import { AboutComponent2 } from './index-en/investor/about/about.component';
+
+  import { StockShareComponent2 } from './index-en/investor/stock-share/stock-share.component';
+  import { NavbarInvestorComponent2 } from './index-en/investor/navbar-investor/navbar-investor.component';
+
+  import { Report2015Component2 } from './index-en/investor/report2015/report2015.component';
+  import { Report2016Component2 } from './index-en/investor/report2016/report2016.component';
+  import { Report2017Component2 } from './index-en/investor/report2017/report2017.component';
+  import { SahamComponent2 } from './index-en/investor/saham/saham.component';
+
+  import { PemegangSahamComponent2 } from './index-en/investor/pemegang-saham/pemegang-saham.component';
+  import { LembagaPenunjangComponent2 } from './index-en/investor/lembaga-penunjang/lembaga-penunjang.component';
+  import { DewanKomisarisComponent2 } from './index-en/investor/dewan-komisaris/dewan-komisaris.component';
+  import { DewanDireksiComponent2 } from './index-en/investor/dewan-direksi/dewan-direksi.component';
+  import { SekretarisPerusahaanComponent2 } from './index-en/investor/sekretaris-perusahaan/sekretaris-perusahaan.component';
+
+
 
 /*
 Services
 */
   import { LocationService } from './services/location.service'
   import { ValidatorService } from './services/validator.service';
-  import { InvestorPageComponent } from './investor/investor-page/investor-page.component';
-  import { IndexEnComponent } from './index-en/index-en.component';
-  import { IndexIdComponent } from './index-id/index-id.component';
+  
+
   
 
   
@@ -106,17 +131,18 @@ Services
     /*
     Static
     */
+    IndexIdComponent,
+    IndexEnComponent,
     AppComponent,
     HeaderComponent,
     FooterComponent,
+    KarirComponent,
+    
 
     /*
     Home
     */
     HomeComponent,
-    PhoneDownloadComponent,
-    FeatureComponent,
-    GoogleLinkComponent,
     GuideHelpComponent,
     TestimonyComponent,
     LocationComponent,
@@ -152,17 +178,24 @@ Services
     /*
     Home - en 
     */
+/*
+    Static
+    */
+    HeaderComponent2,
+    FooterComponent2,
+    KarirComponent2,
+
+    /*
+    Home
+    */
     HomeComponent2,
-    PhoneDownloadComponent2,
-    FeatureComponent2,
-    GoogleLinkComponent2,
     GuideHelpComponent2,
     TestimonyComponent2,
     LocationComponent2,
     BlogComponent2,
 
     /*
-    Investor - en
+    Investor
     */
     InvestorComponent2,
     BursaComponent2,
@@ -176,8 +209,17 @@ Services
     AboutComponent2,
     StockShareComponent2,
     NavbarInvestorComponent2,
-    IndexEnComponent,
-    IndexIdComponent,
+    InvestorPageComponent2,
+    Report2015Component2,
+    Report2016Component2,
+    Report2017Component2,
+    SahamComponent2,
+    MediaComponent2,
+    PemegangSahamComponent2,
+    LembagaPenunjangComponent2,
+    DewanKomisarisComponent2,
+    DewanDireksiComponent2,
+    SekretarisPerusahaanComponent2,
     
     
   ],
@@ -190,6 +232,7 @@ Services
       component: IndexIdComponent,
       children:[
         { path: '', component: HomeComponent },
+        { path: 'karir', component: KarirComponent },
         { path: 'investor', 
           component: InvestorComponent,
           children:[
@@ -208,8 +251,6 @@ Services
             { path: 'financial2017', component: Report2017Component },
           ] 
         },
-        
-        
        ] 
       },
 
@@ -219,11 +260,36 @@ Services
       /*
       En Route Path
       */
+      { path: 'en', 
+      component: IndexEnComponent,
+      children:[
+        { path: '', component: HomeComponent2 },
+        { path: 'karir', component: KarirComponent2 },
+        { path: 'investor', 
+          component: InvestorComponent2,
+          children:[
+            { path: '', component: InvestorPageComponent2 },
+            { path: 'saham', component: SahamComponent2 },
+            { path: 'pemegangsaham', component: PemegangSahamComponent2 },
+            { path: 'lembagapenunjang', component: LembagaPenunjangComponent2 },
+            { path: 'dewankomisaris', component: DewanKomisarisComponent2 },
+            { path: 'dewandireksi', component: DewanDireksiComponent2 },
+            { path: 'sekretarisperusahaan', component: SekretarisPerusahaanComponent2 },
+            { path: 'about', component: AboutComponent2 },//
+            { path: 'financial-statement', component: ReportComponent2 },
+            { path: 'stock-share', component: StockShareComponent2 },
+            { path: 'financial2015', component: Report2015Component2 },
+            { path: 'financial2016', component: Report2016Component2 },
+            { path: 'financial2017', component: Report2017Component2 },
+          ] 
+        },
+       ] 
+      },
 
 
 
-      { path: 'en/investor', component: InvestorComponent2 },
-      { path: 'en', component: IndexEnComponent },
+      // { path: 'en/investor', component: InvestorComponent2 },
+      // { path: 'en', component: IndexEnComponent },
     ]),
     HttpModule,
   ],
