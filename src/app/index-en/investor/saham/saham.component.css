@@ -5,14 +5,13 @@
 .waristext1{
     text-align: center; 
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
+   
     font-size: 140%;
     margin-top: 3%;
 }
 
 .waristext2{
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 140%;
     color: grey;
     margin-top: -1%;
@@ -20,7 +19,7 @@
 
 .waristext3{
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+   
     font-size: 110%;
     color: grey;
     margin-top: 2%;
@@ -33,14 +32,14 @@
     margin-right: auto;
     display: block;
     margin-top: 3%;
-    font-family: 'Times New Roman', Times, serif; 
+     
     font-size: 85%;
 }
 
 .waristext4{
     color:orange; 
     text-align: center;
-    font-family: 'Times New Roman', Times, serif; 
+    
     margin-top: 2%;
     font-size: 80%;
 }

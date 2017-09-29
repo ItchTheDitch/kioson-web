@@ -51,6 +51,8 @@ margin-top: 0px;
 .navbarinvestor
 {
 background-color: rgb(6, 130, 219) !important;
+padding-left: 19%;
+height: 73px;
 }
 li.nav-item.dropdown{
     margin-right:77px !important;
