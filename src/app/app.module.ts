@@ -230,6 +230,7 @@ Services
     RouterModule.forRoot([
       { path: '', 
       component: IndexIdComponent,
+      data: { title: 'Home' },
       children:[
         { path: '', component: HomeComponent },
         { path: 'karir', component: KarirComponent },

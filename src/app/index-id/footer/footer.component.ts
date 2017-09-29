@@ -28,6 +28,13 @@ export class FooterComponent implements OnInit {
     this.validatorservice.langgananEmail();
 
   }
+  navigateTo(location: string): void {
+    // location will be a valid CSS ID selector; i.e. it should be preceded with '#'
+    window.location.hash = location;
+    setTimeout(() => {
+        document.querySelector(location).parentElement.scrollIntoView();
+      });
+    }
 
 
   //udah pindah ke validator.service

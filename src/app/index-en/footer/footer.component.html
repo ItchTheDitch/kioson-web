@@ -33,17 +33,17 @@
 
             <div class="footer-menu col-lg-4 col-6 " style="margin-top:20px;">
                 <ul>
-                    <li><a href="">HOME</a></li>
+                    <li><a (click)="navigateTo('#kepala')" routerLink="/en">HOME</a></li>
                     <br>
-                    <li><a href="../about">ABOUT KIOSON</a></li>
+                    <li><a (click)="navigateTo('#kepala')" routerLink="/en/investor/about">ABOUT KIOSON</a></li>
                     <br>
                     <!-- <li><a href="">BISNIS</a></li>
                     <br>
                     <li><a href="">JADI AGEN</a></li>
                     <br> -->
-                    <li><a href="">CAREER</a></li>
+                    <li><a (click)="navigateTo('#kepala')" routerLink="/en/karir">CAREER</a></li>
                     <br>
-                    <li><a href="">BLOG</a></li>
+                    <li><a href="https://blog.kioson.com">BLOG</a></li>
                     <br>
                     <!-- <li><a href="">HUBUNGI KIOSON</a></li> -->
 
@@ -55,7 +55,7 @@
             <!-- Footer Google play -->
             <div class="footer-btn col-lg-4 col-6 " style="margin-top:15px;">
                 <a href="https://play.google.com/store/apps/details?id=com.ipay.kioson&hl=en">
-                    <img id="badges" src="../../assets/img/googlebadges.png">
+                    <img style="position: relative; z-index=2;" id="badges" src="../../assets/img/googlebadges.png">
                 </a>
                 <br>
 
