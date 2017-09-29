@@ -18,4 +18,5 @@ export class NavbarInvestorComponent implements OnInit {
         document.querySelector(location).parentElement.scrollIntoView();
       });
     }
+    
 }

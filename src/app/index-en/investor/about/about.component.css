@@ -97,7 +97,6 @@ text-align: center;
 margin-top: 36px;
 padding-left: 39px;
 margin-right: 38px;
-font-family: arial;
 }
 
 h5 {
@@ -119,13 +118,11 @@ p {
 
 .hemage h1 {
     font-size: 311%;
-    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    margin-top: 4%;
+    margin-top: 8%;
 }
 
 .hemage h3 {
-    font-family: 'Times New Roman', Times, serif;
     font-size: 234%;
     margin-top: -46px;
 }
@@ -192,7 +189,6 @@ hr {
     color: black;
     font-size: 19px;
     font-weight: 400;
-	font-family: arial;
 }
 
 .content_5 hr {
@@ -207,7 +203,7 @@ hr {
     border-radius: 10px;
     margin-left: 100px;
     height: 487px;
-    top: -40px;
+
 }
 
 .content_5_1 img {
@@ -224,7 +220,7 @@ hr {
     border-radius: 10px;
     margin-left: 42px;
     height: 486px;
-    top: -40px;
+    
 }
 
 .content_52 {
