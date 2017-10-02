@@ -34,8 +34,8 @@ export class ValidatorService {
       this.hpIsInvalid = false;
       this.hpTelahDikirim = true;
       this.noPonsel="";
-      return this.http.post('http://localhost:8000/api/addPonsel', body, options)
-      .map(result=> result.json());
+      this.http.post('http://localhost:8000/api/addPhone', body, options)
+      .subscribe(res=> console.log(res.json()));
 
     }
     else{
@@ -62,12 +62,25 @@ export class ValidatorService {
       this.emailValid = true;
       this.emailBelumBenar=false;
       this.emailSalah=false;
+
+      let data = {
+        "name": this.nama,
+        "email": this.email,
+      };
+      let body = JSON.stringify(data);
+      let headers = new Headers ({ 
+        "Content-Type":"application/json"
+      });
+      let options = new RequestOptions({ headers : headers});
+      this.http.post('http://localhost:8000/api/addEmail', body, options)
+      .subscribe(res=> console.log(res.json()));
     }
     else{
       console.log('Tolong input data dengan benar');
       this.emailSalah = true;
       this.emailValid = false;
     }
+
   }
   
   langgananEmail () {
@@ -101,4 +114,7 @@ export class ValidatorService {
     }
     
   }
+
+  
+
 }
