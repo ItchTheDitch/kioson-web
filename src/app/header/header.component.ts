@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { MetadataService } from '../services/metadata.service';
 
 
 @Component({
@@ -9,9 +8,17 @@ import { MetadataService } from '../services/metadata.service';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor(private data:MetadataService) { }
+  constructor() { }
 
   ngOnInit() {
   }
+
+  navigateTo(location: string): void {
+    // location will be a valid CSS ID selector; i.e. it should be preceded with '#'
+    window.location.hash = location;
+    setTimeout(() => {
+        document.querySelector(location).parentElement.scrollIntoView();
+      });
+    }
 
 }

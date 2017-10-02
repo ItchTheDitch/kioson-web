@@ -11,5 +11,11 @@ export class NavbarInvestorComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  navigateTo(location: string): void {
+    // location will be a valid CSS ID selector; i.e. it should be preceded with '#'
+    window.location.hash = location;
+    setTimeout(() => {
+        document.querySelector(location).parentElement.scrollIntoView();
+      });
+    }
 }

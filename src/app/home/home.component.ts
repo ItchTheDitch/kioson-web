@@ -20,6 +20,5 @@ export class HomeComponent implements OnInit {
 
   validate(){
     this.validatorservice.validateHP();
-
   }
 }
