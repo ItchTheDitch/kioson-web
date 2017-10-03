@@ -34,7 +34,7 @@ export class ValidatorService {
       this.hpIsInvalid = false;
       this.hpTelahDikirim = true;
       this.noPonsel="";
-      this.http.post('http://localhost:8000/api/addPhone', body, options)
+      this.http.post('http://localhost:8000/api/kioson/addPhone', body, options)
       .subscribe(res=> console.log(res.json()));
 
     }
@@ -48,6 +48,7 @@ export class ValidatorService {
 
   email = '';
   nama = '';
+  emailTemp='';
   namaSalah = false;
   namaBelumSalah = true;
   namaIsNull = true;
@@ -63,17 +64,18 @@ export class ValidatorService {
       this.emailBelumBenar=false;
       this.emailSalah=false;
 
-      let data = {
-        "name": this.nama,
-        "email": this.email,
-      };
-      let body = JSON.stringify(data);
-      let headers = new Headers ({ 
-        "Content-Type":"application/json"
-      });
-      let options = new RequestOptions({ headers : headers});
-      this.http.post('http://localhost:8000/api/addEmail', body, options)
-      .subscribe(res=> console.log(res.json()));
+      this.emailTemp = this.email;
+      // let data = {
+      //   "name": this.nama,
+      //   "email": this.email,
+      // };
+      // let body = JSON.stringify(data);
+      // let headers = new Headers ({ 
+      //   "Content-Type":"application/json"
+      // });
+      // let options = new RequestOptions({ headers : headers});
+      // this.http.post('http://localhost:8000/api/kioson/addEmail', body, options)
+      // .subscribe(res=> console.log(res.json()));
     }
     else{
       console.log('Tolong input data dengan benar');
@@ -96,7 +98,7 @@ export class ValidatorService {
       //kirimKeEmailDB () => dari validator.service
       let data = {
         "name": this.nama,
-        "email": this.email,
+        "email": this.emailTemp,
       };
       let body = JSON.stringify(data);
       let headers = new Headers ({ 
@@ -105,8 +107,9 @@ export class ValidatorService {
       
       let options = new RequestOptions({ headers : headers});
   
-      return this.http.post('http://localhost:8000/api/addEmail', body, options)
-      .map(result=> result.json());
+      this.http.post('http://localhost:8000/api/kioson/addEmail', body, options)
+      .subscribe(res=> console.log(res.json()));
+      this.emailTemp = '';
     }
     else{
       this.namaSalah=true;
@@ -114,7 +117,4 @@ export class ValidatorService {
     }
     
   }
-
-  
-
 }
